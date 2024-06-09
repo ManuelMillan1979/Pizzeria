@@ -1,11 +1,22 @@
+import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+import Navbar from "./components/Navbar/Navbar.jsx"
+import Home from './components/Navbar/Home/Home.jsx';
 
 function App() {
 
 
   return (
-<div className="bg-gray-200 text-green-500 text-9xl h-[100vh] flex justify-center items-center">
-  Hola grupo
-</div>
+
+
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+     
+        </Routes>
+
+
+</Router>
   )
 }
 

@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.home {
+    background-image: url('./assets/img-fondo.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.fondo_chef {
+    background-image: url('./assets/fondo-chef.png');
+
+    background-size: cover;
+    background-position: center;
+    
+}
