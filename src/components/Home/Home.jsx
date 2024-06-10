@@ -1,14 +1,14 @@
 import { useState } from 'react';
-import img_chef from '../../../assets/img_chef.png';
-import pizza_1 from '../../../assets/pizza_1.png';
-import pizza_2 from '../../../assets/pizza_2.png';
-import pizza_3 from '../../../assets/pizza_3.png';
-import pizza_4 from '../../../assets/pizza_4.png';
-import pizza_5 from '../../../assets/pizza_5.png';
-import remolo1 from '../../../assets/Don_remolo_1.png';
-import empanadas from '../../../assets/empanadas.png';
-import gaseosas from '../../../assets/gaseosas.png';
-import postres from '../../../assets/postres.png';
+import img_chef from '../../assets/img_chef.png';
+import pizza_1 from '../../assets/pizza.png';
+import pizza_2 from '../../assets/pizza_2.png';
+import pizza_3 from '../../assets/pizza_3.png';
+import pizza_4 from '../../assets/pizza_4.png';
+import pizza_5 from '../../assets/pizza_5.png';
+import remolo1 from '../../assets/Don_remolo_1.png';
+import empanadas from '../../assets/empanadas.png';
+import gaseosas from '../../assets/gaseosas.png';
+import postres from '../../assets/postres.png';
 const Home = () => {
     const [currentImage, setCurrentImage] = useState(remolo1);
 
@@ -39,19 +39,19 @@ const Home = () => {
 
             <div className=' xs:h-[100vh] flex flex-wrap  mt-[7rem] sm:justify-center  2xl:h-[26vh] flex justify-center '>
                 <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[106px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={remolo1} alt="" />
+                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[105px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={remolo1} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette text-[15px] 2xl:text-[30px]'>Pizzas</p>
                 </div>
                 <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[106px] ml-[31px] mr-[31px]  2xl:w-[10vw] ml-[29px] mb-[61px] mt-[-67px]' src={empanadas} alt="" />
+                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[105px] ml-[31px] mr-[31px]  2xl:w-[10vw] ml-[29px] mb-[61px] mt-[-67px]' src={empanadas} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]'>Empanadas</p>
                 </div>
                 <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[15vw] ml-[88px] mb-[61px] mt-[-67px] sm:w-[50px] ml-[51px] mr-[51px] 2xl:w-[3.4vw] ' src={gaseosas} alt="" />
+                    <img className='relative xs:w-[15vw] ml-[88px] mb-[61px] mt-[-67px] sm:w-[49px] ml-[51px] mr-[51px] 2xl:w-[3.4vw] ' src={gaseosas} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]'>Bebidas</p>
                 </div>
                 <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[106px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={postres} alt="" />
+                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[105px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={postres} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]'>Postres</p>
                 </div>
 

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar.jsx"
-import Home from './components/Navbar/Home/Home.jsx';
+import Home from './components/Home/Home.jsx';
+
 
 function App() {
 
