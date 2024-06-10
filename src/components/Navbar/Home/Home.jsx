@@ -25,7 +25,7 @@ const Home = () => {
             <div className='h-[303px] 2xl:h-[51vh] flex justify-center items-end mb-10'>
                 <div className='fondo_chef w-[224px] 2xl:w-[20vw] flex' onClick={clickImg}>
                     <img className='relative ml-[-40px] 2xl:ml-[-93px] mt-[-50px]' src={img_chef} alt="" />
-                    <img className=' absolute xs:h-[13vh] ml-[8rem] mt-[-1rem] 2xl:ml-[15rem] mt-[2rem]' src={currentImage} alt="" />
+                    <img className=' absolute xs:h-[13vh] ml-[8rem] mt-[-1rem] sm:w-[108px] mt-[-9px] md:ml-[128px] mt-[-12px] lg:ml-[141px] xl:ml-[141px] 2xl:ml-[245px] 2xl:w-[10vw] 2xl:mt-[21px]' src={currentImage} alt="" />
 
                 </div>
 
@@ -37,21 +37,21 @@ const Home = () => {
                 </h1>
             </div>
 
-            <div className=' xs:h-[100vh] flex flex-wrap  mt-[7rem] 2xl:h-[26vh] flex justify-center '>
-                <div className='rectangle11 xs:w-[57%] h-[10rem] 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={remolo1} alt="" />
+            <div className=' xs:h-[100vh] flex flex-wrap  mt-[7rem] sm:justify-center  2xl:h-[26vh] flex justify-center '>
+                <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
+                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[106px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={remolo1} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette text-[15px] 2xl:text-[30px]'>Pizzas</p>
                 </div>
-                <div className='rectangle11 xs:w-[57%] h-[10rem] 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] 2xl:w-[10vw] ml-[29px] mb-[61px] mt-[-67px]' src={empanadas} alt="" />
+                <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
+                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[106px] ml-[31px] mr-[31px]  2xl:w-[10vw] ml-[29px] mb-[61px] mt-[-67px]' src={empanadas} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]'>Empanadas</p>
                 </div>
-                <div className='rectangle11 xs:w-[57%] h-[10rem] 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[15vw] ml-[88px] mb-[61px] mt-[-67px] 2xl:w-[3.4vw] ' src={gaseosas} alt="" />
+                <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
+                    <img className='relative xs:w-[15vw] ml-[88px] mb-[61px] mt-[-67px] sm:w-[50px] ml-[51px] mr-[51px] 2xl:w-[3.4vw] ' src={gaseosas} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]'>Bebidas</p>
                 </div>
-                <div className='rectangle11 xs:w-[57%] h-[10rem] 2xl:w-[13%] flex justify-center flex-col'>
-                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={postres} alt="" />
+                <div className='rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col'>
+                    <img className='relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[106px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]' src={postres} alt="" />
                     <p className='relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]'>Postres</p>
                 </div>
 
