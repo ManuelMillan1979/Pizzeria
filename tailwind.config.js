@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'courgette': ['Courgette', 'cursive'],
       },
+      screens: {
+        'xs': {'max': '425px'},
+      },
     },
   },
   plugins: [],

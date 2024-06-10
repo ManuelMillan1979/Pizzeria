@@ -17,3 +17,11 @@
     background-position: center;
     
 }
+
+.rectangle11 {
+    background-image: url('./assets/Rectangle11.png');
+
+    background-size: cover;
+    background-position: center;
+    
+}
