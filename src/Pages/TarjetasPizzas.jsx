@@ -20,7 +20,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -44,7 +44,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -68,7 +68,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -92,7 +92,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -117,7 +117,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -144,7 +144,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -168,7 +168,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -192,7 +192,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -216,7 +216,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -241,7 +241,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -268,7 +268,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -292,7 +292,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -316,7 +316,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
@@ -340,7 +340,7 @@ const TarjetasPizzas = () => {
                     alt=""
                   />
                 </div>
-                <h2 className="text-xl font-medium text-black">Muzzarella</h2>
+                <h2 className="text-xl font-medium text-black font-courgette">Muzzarella</h2>
                 <span className="text-black block mb-5">
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
