@@ -12,7 +12,7 @@ const TarjetasEmpanadas = () => {
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img
-                    className="w-auto mx-auto rounded-full -mt-20"
+                    className="w-auto mx-auto rounded-full -mt-28"
                     src={empanadas}
                     alt=""
                   />
@@ -36,7 +36,7 @@ const TarjetasEmpanadas = () => {
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img
-                    className="w-auto mx-auto rounded-full -mt-20"
+                    className="w-auto mx-auto rounded-full -mt-28"
                     src={empanadas}
                     alt=""
                   />
@@ -60,7 +60,7 @@ const TarjetasEmpanadas = () => {
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img
-                    className="w-auto mx-auto rounded-full -mt-20"
+                    className="w-auto mx-auto rounded-full -mt-28"
                     src={empanadas}
                     alt=""
                   />
@@ -80,13 +80,13 @@ const TarjetasEmpanadas = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-around sm:flex-row mt-20">
+          <div className="flex flex-col justify-around sm:flex-row mt-28">
             {/*Inicio Tarjeta 1 */}
             <div className="sm:w-1/4 p-2">
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img
-                    className="w-auto mx-auto rounded-full -mt-20"
+                    className="w-auto mx-auto rounded-full -mt-28"
                     src={empanadas}
                     alt=""
                   />
@@ -110,7 +110,7 @@ const TarjetasEmpanadas = () => {
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img
-                    className="w-auto mx-auto rounded-full -mt-20"
+                    className="w-auto mx-auto rounded-full -mt-28"
                     src={empanadas}
                     alt=""
                   />
@@ -134,7 +134,7 @@ const TarjetasEmpanadas = () => {
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img
-                    className="w-auto mx-auto rounded-full -mt-20"
+                    className="w-auto mx-auto rounded-full -mt-28"
                     src={empanadas}
                     alt=""
                   />
