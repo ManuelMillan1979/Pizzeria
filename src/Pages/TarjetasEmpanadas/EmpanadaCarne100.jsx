@@ -20,9 +20,9 @@ const EmpanadaCarne100 = () => {
                 100% Carne
               </p>
               <div className="flex items-center space-x-6">
-                <FaCirclePlus className="h-10 w-8 text-black" />
+                <button><FaCirclePlus className="h-10 w-8 text-black" /></button>
                 <p className="text-3xl text-black">1</p>
-                <FaCircleMinus className="h-10 w-8 text-black" />
+                <button><FaCircleMinus className="h-10 w-8 text-black" /></button>
               </div>
               <div className="hidden md:flex items-center px-3 py-1 rounded-full text-xs font-medium text-gray-800">
                 <FaCartShopping className="text-red-500 text-5xl" />
