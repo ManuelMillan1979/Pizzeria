@@ -10,6 +10,7 @@ import EmpanadaPorkAgri from './Pages/TarjetasEmpanadas/EmpanadaPorkAgri.jsx';
 import EmpanadaFullPanceta from './Pages/TarjetasEmpanadas/EmpanadaFullPanceta.jsx';
 import NotFound from './Pages/404NotFound.jsx'; // Create a NotFound component
 import EmpanadaPolloBBQ from './Pages/TarjetasEmpanadas/EmpanadaPolloBBQ.jsx';
+import EmpanadaPolloAlWok from './Pages/TarjetasEmpanadas/EmpanadaPolloAlWok.jsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/empanadaPorkAgri" element={<EmpanadaPorkAgri />} />
         <Route path="/empanadaFullPanceta" element={<EmpanadaFullPanceta />} />
         <Route path='/empanadaPolloBBQ' element={<EmpanadaPolloBBQ />} />
+        <Route path='/empanadaPolloAlWok' element={<EmpanadaPolloAlWok />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
