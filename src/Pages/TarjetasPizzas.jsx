@@ -13,11 +13,10 @@ import pizza_12 from "../assets/Pizzas/Veggi power.png";
 import pizza_13 from "../assets/Pizzas/Pollo especial.png";
 import pizza_14 from "../assets/Pizzas/Super especial.png";
 
-
 const TarjetasPizzas = () => {
   return (
     <>
-      <div className="bg-amber-400">
+      <div className="bg-amber-400 h-screen">
         <div id="container" className="w-4/5 mx-auto">
           <div className="flex flex-col sm:flex-row">
             {/*Inicio Tarjeta 1 */}
@@ -116,7 +115,7 @@ const TarjetasPizzas = () => {
                 </div>
               </div>
             </div>
-            {/*Fin trajeta 4 */}
+  
             {/*Inicio Tarjeta 5 */}
             <div className="sm:w-1/4 p-2 mt-32">
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
@@ -240,7 +239,7 @@ const TarjetasPizzas = () => {
                 </div>
               </div>
             </div>
-            {/*Fin trajeta 4 */}
+ 
             {/*Inicio Tarjeta 10 */}
             <div className="sm:w-1/4 p-2">
               <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
@@ -265,7 +264,7 @@ const TarjetasPizzas = () => {
                 </div>
               </div>
             </div>
-            {/*Fin trajeta 4 */}
+
           </div>
           <div className="flex flex-col sm:flex-row mt-20">
             {/*Inicio Tarjeta 11 */}
@@ -364,7 +363,6 @@ const TarjetasPizzas = () => {
                 </div>
               </div>
             </div>
-            {/*Fin trajeta 4 */}
           </div>
         </div>
       </div>
