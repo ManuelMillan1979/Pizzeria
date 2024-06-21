@@ -10,7 +10,8 @@ export default {
         'courgette': ['Courgette', 'cursive'],
       },
       screens: {
-        'xs': {'max': '425px'},
+        'xs': {'max': '639px'},
+        
       },
     },
   },
