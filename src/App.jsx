@@ -14,6 +14,8 @@ import EmpanadaPolloAlWok from './Pages/TarjetasEmpanadas/EmpanadaPolloAlWok.jsx
 import PizzaMuzzarella from './Pages/TarjetasPizzas/PizzaMuzzarella.jsx';
 import PizzaNapolitana from './Pages/TarjetasPizzas/PizzaNapolitana.jsx';
 import PizzaNapoEspecial from './Pages/TarjetasPizzas/PizzaNapoEspecial.jsx';
+import PizzaNapoPower from './Pages/TarjetasPizzas/PizzaNapoPower.jsx';
+import Pizzacapresse from './Pages/TarjetasPizzas/PizzaCapresse.jsx';
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
         <Route path='/pizzamuzzarella' element={<PizzaMuzzarella />} />
         <Route path='/pizzanapolitana' element={<PizzaNapolitana />} />
         <Route path='/pizzanapoespecial' element={<PizzaNapoEspecial />} />
+        <Route path='/pizzanapopower' element={<PizzaNapoPower />} />
+        <Route path='/pizzaCapresse' element={<Pizzacapresse />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
