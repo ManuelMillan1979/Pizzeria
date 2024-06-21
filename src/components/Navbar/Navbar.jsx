@@ -1,5 +1,6 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -12,6 +13,9 @@ const Navbar = () => {
             <div className=" flex justify-around items-center w-[90px] sm:w-[150px] md:w-[200px] lg:w-[300px]">
                 <div>
                     <FaFacebookF className="text-white w-4 size-[20px] sm:size-[37px] 2xl:size-[50px] "  />
+                </div>
+                <div>
+                    <FaTelegramPlane className="text-white w-4 size-[20px] sm:size-[37px] 2xl:size-[50px] "  />
                 </div>
                 <div>
                     <FaInstagram className="text-white w-6 size-[20px] sm:size-[37px] 2xl:size-[50px] " />
