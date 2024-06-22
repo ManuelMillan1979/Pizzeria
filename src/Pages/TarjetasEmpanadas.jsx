@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import empanadas1 from "../assets/Empanadas/100_ Carne.png";
 import empanadas2 from "../assets/Empanadas/Calabaza.png";
 import empanadas3 from "../assets/Empanadas/Bondio agri.png";
@@ -27,12 +27,13 @@ const TarjetasEmpanadas = () => {
                   Carne cortada a cuchillo, cebolla, morrón y aceitunas verdes.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/EmpanadaCarne100">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,12 +52,13 @@ const TarjetasEmpanadas = () => {
                   Calabaza y queso muzzarella.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/EmpanadaCalabaza">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -75,12 +77,13 @@ const TarjetasEmpanadas = () => {
                   Solomillo de cerdo, panceta y ciruela.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/EmpanadaPorkAgri">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -101,12 +104,13 @@ const TarjetasEmpanadas = () => {
                   Panceta, chorizo colorado, queso gratinado y huevo.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/EmpanadaFullPanceta">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -125,12 +129,13 @@ const TarjetasEmpanadas = () => {
                   Pechuga de pollo, barbacoa y cebolla.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/EmpanadaPolloBBQ">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -149,12 +154,13 @@ const TarjetasEmpanadas = () => {
                   Pollo crujiente, arroz condimentado y pimientos.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/EmpanadaPolloAlWok">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>

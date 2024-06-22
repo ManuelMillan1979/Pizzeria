@@ -19,7 +19,7 @@ const EmpanadaPolloAlWok = () => {
           <div className="w-full md:w-2/3 bg-amber-300 flex flex-col justify-between space-y-2 p-3 gap-6">
             <div className="flex flex-row justify-between items-center">
               <p className="text-black text-3xl font-courgette hidden md:block">
-                Pollo BBQ
+                Pollo al wok
               </p>
               <div className="flex items-center space-x-6">
                 <button><FaCirclePlus className="h-10 w-8 text-black" /></button>
