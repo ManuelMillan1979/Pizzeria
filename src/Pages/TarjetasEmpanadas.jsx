@@ -8,7 +8,7 @@ import empanadas6 from "../assets/Empanadas/Pollo al wok.png";
 
 const empanadasData = [
   { img: empanadas1, title: "100% Carne", price: 850, description: "Carne cortada a cuchillo, cebolla, morrón y aceitunas verdes.", link: "/EmpanadaCarne100" },
-  { img: empanadas2, title: "Calabaza", price: 790, description: "Calabaza y queso muzzarella.", link: "/EmpanadaCalabaza" },
+  { img: empanadas2, title: "Calabaza   ", price: 790, description: "Calabaza y queso muzzarella.     ", link: "/EmpanadaCalabaza" },
   { img: empanadas3, title: "Pork agri", price: 880, description: "Solomillo de cerdo, panceta y ciruela.", link: "/EmpanadaPorkAgri" },
   { img: empanadas4, title: "Full panceta", price: 830, description: "Panceta, chorizo colorado, queso gratinado y huevo.", link: "/EmpanadaFullPanceta" },
   { img: empanadas5, title: "Pollo BBQ", price: 810, description: "Pechuga de pollo, barbacoa y cebolla.", link: "/EmpanadaPolloBBQ" },

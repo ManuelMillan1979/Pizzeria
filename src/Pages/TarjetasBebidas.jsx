@@ -1,62 +1,35 @@
+
 import bebida1 from "../assets/Bebidas/Aguas/Agua sin gas.png";
 import bebida2 from "../assets/Bebidas/Cervezas/Heineken.png";
 import bebida3 from "../assets/Bebidas/Gaseosas/Coca común.png";
 
-const TarjetasBebidas = () => {
-  return (
-    <>
-      <div className="bg-amber-400 h-[700px]">
-        <div id="container" className="w-11/12 mx-auto">
-          <div className="flex flex-col justify-around sm:flex-row">
-            {/*Inicio Tarjeta 1 */}
-            <div className="sm:w-1/4 p-2 mt-32">
-              <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
-                <div className="mb-3">
-                  <img
-                    className="w-auto mx-auto rounded-full -mt-28"
-                    src={bebida1}
-                    alt=""
-                  />
-                </div>
-                <h2 className="text-3xl font-medium text-black font-courgette">
-                  Aguas / aguas saborizadas
-                </h2>
-              </div>
-            </div>
-            {/*Inicio Tarjeta 2 */}
-            <div className="sm:w-1/4 p-2 mt-32">
-              <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
-                <div className="mb-3">
-                  <img
-                    className="w-auto mx-auto rounded-full -mt-32"
-                    src={bebida2}
-                    alt=""
-                  />
-                </div>
-                <h2 className="text-3xl font-medium text-black font-courgette mt-7">
-                  Cervezas
-                </h2>
-              </div>
-            </div>
-            {/*Inicio Tarjeta 3 */}
-            <div className="sm:w-1/4 p-2 mt-32">
-              <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center">
-                <div className="mb-3">
-                  <img
-                    className="w-auto mx-auto rounded-full h-[360px] -mt-28"
-                    src={bebida3}
-                    alt=""
-                  />
-                </div>
-                <h2 className="text-3xl font-medium text-black font-courgette mt-2">
-                  Gaseosas
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
+const bebidasData = [
+  { img: bebida1, title: "Aguas / aguas saborizadas" },
+  { img: bebida2, title: "Cervezas" },
+  { img: bebida3, title: "Gaseosas" },
+];
+
+const TarjetaBebida = ({ img, title }) => (
+  <div className="sm:w-1/4 p-2 mt-32 flex flex-col">
+    <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center flex flex-col h-full">
+      <div className="mb-3">
+        <img className="w-auto mx-auto rounded-full -mt-28" src={img} alt={title} />
       </div>
-    </>
-  );
-};
+      <h2 className="text-3xl font-medium text-black font-courgette flex-grow">{title}</h2>
+    </div>
+  </div>
+);
+
+const TarjetasBebidas = () => (
+  <div className="bg-amber-400 h-[700px]">
+    <div id="container" className="w-11/12 mx-auto">
+      <div className="flex flex-col justify-around sm:flex-row">
+        {bebidasData.map((bebida, index) => (
+          <TarjetaBebida key={index} {...bebida} />
+        ))}
+      </div>
+    </div>
+  </div>
+);
+
 export default TarjetasBebidas;
