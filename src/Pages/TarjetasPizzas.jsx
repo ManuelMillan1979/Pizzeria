@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import pizza_1 from "../assets/Pizzas/Muzzarela (2).png";
 import pizza_2 from "../assets/Pizzas/Napolitana.png";
 import pizza_3 from "../assets/Pizzas/Napo especial.png";
@@ -16,7 +17,7 @@ import pizza_14 from "../assets/Pizzas/Super especial.png";
 const TarjetasPizzas = () => {
   return (
     <>
-      <div className="bg-amber-400 h-screen">
+      <div className="bg-amber-400 h-full">
         <div id="container" className="w-4/5 mx-auto">
           <div className="flex flex-col sm:flex-row">
             {/*Inicio Tarjeta 1 */}
@@ -34,12 +35,13 @@ const TarjetasPizzas = () => {
                   Salsa de tomate, queso muzzarella y orégano.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/PizzaMuzzarella">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -58,12 +60,13 @@ const TarjetasPizzas = () => {
                   Salsa de tomate, muzzarella, ajo y perejil.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/PizzaNapolitana">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -82,12 +85,13 @@ const TarjetasPizzas = () => {
                   Queso muzzarella, tomate, ajo y cebolla.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/PizzaNapoEspecial">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -106,12 +110,13 @@ const TarjetasPizzas = () => {
                   Muzzarella, tomate, aceitunas y champignon.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/PizzaNapoPower">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,16 +136,16 @@ const TarjetasPizzas = () => {
                   cherry, muzzarella, oliva negra y albahaca.
                 </span>
                 <div className="flex justify-end w-full">
+                <Link to="/PizzaCapresse">
                   <button
-                    href="#"
                     className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full"
                   >
                     +Info
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
-            {/*Fin trajeta 4 */}
           </div>
           <div className="flex flex-col sm:flex-row mt-20">
             {/*Inicio Tarjeta 6 */}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import img_chef from "../../assets/img_chef.png";
 import pizza_1 from "../../assets/pizza.png";
 import pizza_2 from "../../assets/pizza_2.png";
@@ -20,7 +21,7 @@ const Home = () => {
   };
 
   return (
-    <div className="home xs:h-[167vh] 2xl:h-[100vh] ">
+    <div className="home xs:h-[167vh] 2xl:h-full ">
       <div className="h-[303px] 2xl:h-[51vh] flex justify-center items-end mb-10">
         <div
           className="fondo_chef w-[224px] 2xl:w-[20vw] flex"
@@ -47,6 +48,7 @@ const Home = () => {
 
       <div className=" xs:h-[100vh] flex flex-wrap  mt-[7rem] sm:justify-center  2xl:h-[26vh] flex justify-center ">
         <div className="rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col">
+        <Link to="/TarjetasPizzas">
           <img
             className="relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[105px] ml-[31px] mr-[31px] 2xl:w-[8vw] ml-[48px] mb-[61px] mt-[-67px]"
             src={remolo1}
@@ -55,8 +57,10 @@ const Home = () => {
           <p className="relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette text-[15px] 2xl:text-[30px]">
             Pizzas
           </p>
+          </Link>
         </div>
         <div className="rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col">
+        <Link to="/TarjetasEmpanadas">
           <img
             className="relative xs:w-[38vw] ml-[43px] mb-[61px] mt-[-49px] sm:w-[105px] ml-[31px] mr-[31px]  2xl:w-[10vw] ml-[29px] mb-[61px] mt-[-67px]"
             src={empanadas}
@@ -65,8 +69,10 @@ const Home = () => {
           <p className="relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]">
             Empanadas
           </p>
+          </Link>
         </div>
         <div className="rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col">
+        <Link to="/TarjetasBebidas">
           <img
             className="relative xs:w-[15vw] ml-[88px] mb-[61px] mt-[-67px] sm:w-[49px] ml-[51px] mr-[51px] 2xl:w-[3.4vw] "
             src={gaseosas}
@@ -75,6 +81,7 @@ const Home = () => {
           <p className="relative h-[77px] mt-[-67px] flex justify-center items-center font-courgette 2xl:text-[30px]">
             Bebidas
           </p>
+          </Link>
         </div>
         <div className="rectangle11 xs:w-[57%] h-[10rem] sm:mr-2 2xl:w-[13%] flex justify-center flex-col">
           <img

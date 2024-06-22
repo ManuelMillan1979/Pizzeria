@@ -5,7 +5,7 @@ import bebida3 from "../assets/Bebidas/Gaseosas/Coca común.png"
 const TarjetasBebidas = () => {
   return (
     <>
-      <div className="bg-amber-400">
+      <div className="bg-amber-400 h-screen">
         <div id="container" className="w-11/12 mx-auto">
           <div className="flex flex-col justify-around sm:flex-row">
             {/*Inicio Tarjeta 1 */}
