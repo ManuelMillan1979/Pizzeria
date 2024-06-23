@@ -21,15 +21,15 @@ const pizzas = [
   { src: pizza_3, name: "Napo esp.", price: 14900, desc: "Queso muzzarella, tomate, ajo y cebolla.", link: "/PizzaNapoEspecial" },
   { src: pizza_4, name: "Napo power", price: 14800, desc: "Muzzarella, tomate, aceitunas y champignon.", link: "/PizzaNapoPower" },
   { src: pizza_5, name: "Capresse", price: 11900, desc: "Cherry, muzzarella, oliva negra y albahaca.", link: "/PizzaCapresse" },
-  { src: pizza_6, name: "4 quesos", price: 13700, desc: "Muzzarella, provolone, gruyere y roquefort.", link: "#" },
-  { src: pizza_7, name: "Calabresa", price: 14200, desc: "Tomate, longaniza, pimientos y cebolla.", link: "#" },
-  { src: pizza_8, name: "Don Rémolo", price: 13700, desc: "Muzzarella, longaniza, panceta, pollo, oregano.", link: "#" },
-  { src: pizza_9, name: "All panceta", price: 14200, desc: "Ajíes, muzarella, panceta y champignon.", link: "#" },
-  { src: pizza_10, name: "Pepperoni", price: 13700, desc: "Salsa de tomate, queso muzzarella y pepperoni.", link: "#" },
-  { src: pizza_11, name: "Veggie", price: 11500, desc: "Queso muzzarella, espinaca, pimientos y olivas negras.", link: "#" },
-  { src: pizza_12, name: "Veggie power", price: 12800, desc: "Muzzarella, espinaca, pimientos y olivas negras.", link: "#" },
-  { src: pizza_13, name: "Pollo especial", price: 13700, desc: "Muzzarella, trozos de pollo, tomate cherry y champignon.", link: "#" },
-  { src: pizza_14, name: "4 quesos", price: 15300, desc: "Mix de gustos: Pepperoni, napolitana panceta y 4 quesos.", link: "#" }
+  { src: pizza_6, name: "4 quesos", price: 13700, desc: "Muzzarella, provolone, gruyere y roquefort.", link: "/Pizza4quesos" },
+  { src: pizza_7, name: "Calabresa", price: 14200, desc: "Tomate, longaniza, pimientos y cebolla.", link: "/PizzaCalabresa" },
+  { src: pizza_8, name: "Don Rémolo", price: 13700, desc: "Muzzarella, longaniza, panceta, pollo, oregano.", link: "/PizzaDonRemolo" },
+  { src: pizza_9, name: "All panceta", price: 14200, desc: "Ajíes, muzarella, panceta y champignon.", link: "/PizzaAllPanceta" },
+  { src: pizza_10, name: "Pepperoni", price: 13700, desc: "Salsa de tomate, queso muzzarella y pepperoni.", link: "/PizzaPepperoni" },
+  { src: pizza_11, name: "Veggie", price: 11500, desc: "Queso muzzarella, espinaca, pimientos y olivas negras.", link: "/PizzaVeggie" },
+  { src: pizza_12, name: "Veggie power", price: 12800, desc: "Muzzarella, espinaca, pimientos y olivas negras.", link: "/PizzaVeggiePower" },
+  { src: pizza_13, name: "Pollo especial", price: 13700, desc: "Muzzarella, trozos de pollo, tomate cherry y champignon.", link: "/PizzaPolloEspecial" },
+  { src: pizza_14, name: "Super espacial", price: 15300, desc: "Mix de gustos: Pepperoni, napolitana panceta y 4 quesos.", link: "/PizzaSuperEspecial" }
 ];
 
 const TarjetasPizzas = () => {

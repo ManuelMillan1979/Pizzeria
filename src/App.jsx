@@ -16,6 +16,11 @@ import PizzaNapolitana from './Pages/TarjetasPizzas/PizzaNapolitana.jsx';
 import PizzaNapoEspecial from './Pages/TarjetasPizzas/PizzaNapoEspecial.jsx';
 import PizzaNapoPower from './Pages/TarjetasPizzas/PizzaNapoPower.jsx';
 import Pizzacapresse from './Pages/TarjetasPizzas/PizzaCapresse.jsx';
+import Pizza4Quesos from './Pages/TarjetasPizzas/Pizza4Quesos.jsx';
+import PizzaCalabresa from './Pages/TarjetasPizzas/PizzaCalabresa.jsx';
+import PizzaDonRemolo from './Pages/TarjetasPizzas/PizzaDonRemolo.jsx';
+import PizzaAllPanceta from './Pages/TarjetasPizzas/PizzaAllPanceta.jsx';
+import PizzaPepperoni from './Pages/TarjetasPizzas/PizzaPepperoni.jsx';
 
 function App() {
   return (
@@ -37,6 +42,11 @@ function App() {
         <Route path='/pizzanapoespecial' element={<PizzaNapoEspecial />} />
         <Route path='/pizzanapopower' element={<PizzaNapoPower />} />
         <Route path='/pizzaCapresse' element={<Pizzacapresse />} />
+        <Route path='/pizza4Quesos' element={<Pizza4Quesos />} />
+        <Route path='/pizzaCalabresa' element={<PizzaCalabresa />} />
+        <Route path='/pizzaDonRemolo' element={<PizzaDonRemolo />} />
+        <Route path='/pizzaAllPanceta' element={<PizzaAllPanceta/>} />
+        <Route path='/PizzaPepperoni' element={<PizzaPepperoni />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
