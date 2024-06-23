@@ -21,6 +21,10 @@ import PizzaCalabresa from './Pages/TarjetasPizzas/PizzaCalabresa.jsx';
 import PizzaDonRemolo from './Pages/TarjetasPizzas/PizzaDonRemolo.jsx';
 import PizzaAllPanceta from './Pages/TarjetasPizzas/PizzaAllPanceta.jsx';
 import PizzaPepperoni from './Pages/TarjetasPizzas/PizzaPepperoni.jsx';
+import PizzaVeggi from './Pages/TarjetasPizzas/PizzaVeggi.jsx';
+import PizzaVeggiPower from './Pages/TarjetasPizzas/PizzaVeggiPower.jsx';
+import PizzaPolloEspecial from './Pages/TarjetasPizzas/PizzaPolloEspecial.jsx';
+import PizzaSuperEspecial from './Pages/TarjetasPizzas/PizzaSuperEspecial.jsx';
 
 function App() {
   return (
@@ -47,6 +51,10 @@ function App() {
         <Route path='/pizzaDonRemolo' element={<PizzaDonRemolo />} />
         <Route path='/pizzaAllPanceta' element={<PizzaAllPanceta/>} />
         <Route path='/PizzaPepperoni' element={<PizzaPepperoni />} />
+        <Route path='/PizzaVeggie' element={<PizzaVeggi />} />
+        <Route path='/PizzaVeggiePower' element={<PizzaVeggiPower />}/>
+        <Route path='/PizzaPolloEspecial' element={<PizzaPolloEspecial />} />
+        <Route path='/PizzaSuperespecial' element={<PizzaSuperEspecial />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
