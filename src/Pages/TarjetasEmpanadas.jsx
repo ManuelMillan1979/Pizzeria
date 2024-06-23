@@ -16,7 +16,7 @@ const empanadasData = [
 ];
 
 const TarjetaEmpanada = ({ img, title, price, description, link }) => (
-  <div className="sm:w-1/4 p-2 mt-32 flex flex-col">
+  <div className="sm:w-1/4 p-2 mt-32 flex flex-col ">
     <div className="bg-amber-300 px-6 py-8 rounded-lg shadow-lg text-center flex flex-col h-full">
       <div className="mb-3">
         <img className="w-auto mx-auto rounded-full -mt-28" src={img} alt={title} />
@@ -33,7 +33,7 @@ const TarjetaEmpanada = ({ img, title, price, description, link }) => (
 );
 
 const TarjetasEmpanadas = () => (
-  <div className="bg-amber-400">
+  <div className="home">
     <div id="container" className="w-11/12 mx-auto">
       <div className="flex flex-col justify-around sm:flex-row">
         {empanadasData.slice(0, 3).map((empanada, index) => (
