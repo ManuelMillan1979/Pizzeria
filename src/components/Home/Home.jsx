@@ -1,25 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import img_chef from '../../assets/img_chef.png';
-import pizza_1 from '../../assets/pizza.png';
-import pizza_2 from '../../assets/pizza_2.png';
-import pizza_3 from '../../assets/pizza_3.png';
-import pizza_4 from '../../assets/pizza_4.png';
-import pizza_5 from '../../assets/pizza_5.png';
 import remolo1 from '../../assets/Don_remolo_1.png';
 import empanadas from '../../assets/empanadas.png';
 import gaseosas from '../../assets/gaseosas.png';
 import postres from '../../assets/postres.png';
-const Home = () => {
-    const [currentImage, setCurrentImage] = useState(remolo1);
+import dato from '../../components/Apis/Apis.jsx'
 
-    const images = [pizza_1, pizza_2, pizza_3, pizza_4, pizza_5, remolo1];
+
+const { pizzas } = dato;
+const Home = () => {
+    const [currentImage, setCurrentImage] = useState(pizzas[0].img);
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    
+    const images = pizzas.map(element => element.img);
+    console.log(images);
 
     const clickImg = () => {
-        const nextImageIndex = (images.indexOf(currentImage) + 1) % images.length;
+        const nextImageIndex = (currentIndex + 1) % images.length;
         setCurrentImage(images[nextImageIndex]);
+        setCurrentIndex(nextImageIndex);
     };
 
-
+    useEffect(() => {
+        console.log(currentIndex);
+    }, [currentIndex]);
     return (
         <div className='home  md:h-[140vh] md:flex flex-col justify-evenly lg:h-auto'>
             <div className='h-[376px]  flex justify-center items-end mb-10 2xl:h-lg 2xl:mt-36'>
