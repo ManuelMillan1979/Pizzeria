@@ -5,7 +5,7 @@ import TarjetasPizzas from "./Pages/TarjetasPizzas.jsx";
 import TarjetasEmpanadas from './Pages/TarjetasEmpanadas.jsx';
 import TarjetasBebidas from './Pages/TarjetasBebidas.jsx';
 import EmpanadaCarne100 from './Pages/TarjetasEmpanadas/EmpanadaCarne100.jsx';
-import EmpanadaCalabaza from './Pages/TarjetasEmpanadas/EmpanadaCalabaza.jsx';
+import EmpanadaCalabaza from './Pages/TarjetasEmpanadas/empanadaCalabaza.jsx';
 import EmpanadaPorkAgri from './Pages/TarjetasEmpanadas/EmpanadaPorkAgri.jsx';
 import EmpanadaFullPanceta from './Pages/TarjetasEmpanadas/EmpanadaFullPanceta.jsx';
 import NotFound from './Pages/404NotFound.jsx'; // Create a NotFound component
@@ -25,6 +25,7 @@ import PizzaVeggi from './Pages/TarjetasPizzas/PizzaVeggi.jsx';
 import PizzaVeggiPower from './Pages/TarjetasPizzas/PizzaVeggiPower.jsx';
 import PizzaPolloEspecial from './Pages/TarjetasPizzas/PizzaPolloEspecial.jsx';
 import PizzaSuperEspecial from './Pages/TarjetasPizzas/PizzaSuperEspecial.jsx';
+import TuPedido from './Pages/TuPedido.jsx';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/tu_pedido" element={<TuPedido />} />
         <Route path="/tarjetasPizzas" element={<TarjetasPizzas />} />
         <Route path="/tarjetasEmpanadas" element={<TarjetasEmpanadas />} />
         <Route path="/tarjetasBebidas" element={<TarjetasBebidas />} />
