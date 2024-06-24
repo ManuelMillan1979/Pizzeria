@@ -177,7 +177,7 @@ const pizzas=
 const empanada=[
     {
         "id": 1,
-        "name": "10% Carne",
+        "name": "100% Carne",
         "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733948/E_100_Carne_sk0uke.jpg?_s=public-apps",
         "ingredients": [
             "Carne cortada a cuchillo",
