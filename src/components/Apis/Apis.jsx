@@ -10,6 +10,7 @@ const pizzas=
             "queso muzzarella",
             "orégano"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/muzzarella_syh3xh.png",
         "price": 11300
     },
     {
@@ -23,6 +24,7 @@ const pizzas=
             "ajo",
             "perejil"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/Napolitana_mjj6y5.png",
         "price": 12500
     },
     {
@@ -35,6 +37,7 @@ const pizzas=
             "ajo",
             "cebolla"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Napo_especial_zsjkql.png",
         "price": 14900
     },
     {
@@ -47,6 +50,7 @@ const pizzas=
             "aceitunas",
             "champignon"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Napo_power_ic6pjs.png",
         "price": 14800
     },
     {
@@ -60,6 +64,7 @@ const pizzas=
             "olivas negras",
             "albaca"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Caprese_nxfrme.png",
         "price": 11900
     },
     {
@@ -72,6 +77,7 @@ const pizzas=
             "gruyere",
             "oroquefort"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/4quesos_utft6b.png",
         "price": 13700
     },
     {
@@ -84,6 +90,7 @@ const pizzas=
             "pimientos",
             "cebolla"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Calabresa_qigxfy.png",
         "price": 14200
     },
     {
@@ -93,9 +100,11 @@ const pizzas=
         "ingredients": [
             "Queso muzzarella",
             "longaniza",
-            "pimientos",
-            "cebolla"
+            "panceta",
+            "pollo",
+            "orégano"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445248/donremolo_ymnmb5.png",
         "price": 13700
     },
     {
@@ -109,6 +118,7 @@ const pizzas=
             "panceta crocante",
             "champignon"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445243/100_panceta_dvx3c2.png",
         "price": 14200
     },
     {
@@ -120,6 +130,7 @@ const pizzas=
             "queso muzzarella",
             "pepperoni"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/pepperoni_wyikml.png",
         "price": 13700
     },
     {
@@ -132,6 +143,7 @@ const pizzas=
             "rodajas de tomate",
             "olivas negras"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/veggi_fzflae.png",
         "price": 11500
     },
     {
@@ -144,6 +156,7 @@ const pizzas=
             "pimientos",
             "olivas negras"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445241/veggiPower_t3tmqb.png",
         "price": 12800
     },
     {
@@ -156,6 +169,7 @@ const pizzas=
             "tomate cherry",
             "champignon"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/polloEspecial_vmlb2z.png",
         "price": 14200
     },
     {
@@ -169,6 +183,7 @@ const pizzas=
             "100% panceta",
             "4 quesos"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/SuperEspecial_yfakbs.png",
         "price": 15300
     }
 ]
@@ -185,6 +200,7 @@ const empanada=[
             "morrón",
             "aceituna verdes"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/E_100carne_v3j6dm.png",
         "price": 850
     },
     {
@@ -195,6 +211,7 @@ const empanada=[
             "Calabaza",
             "queso muzzarrella"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1719445224/E_Calabaza_kquyie.jpg?_s=public-apps",
         "price": 790
     },
     {
@@ -205,6 +222,7 @@ const empanada=[
             "Solomillo de cerdo",
             "queso muzzarrella"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_porkAgri_cekwni.png",
         "price": 880
     },
     {
@@ -217,6 +235,7 @@ const empanada=[
             "queso gratinado",
             "huevo"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_panceta_ujpoip.png",
         "price": 830
     },
     {
@@ -228,6 +247,7 @@ const empanada=[
             "barbacoa",
             "cebolla"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445224/E_PolloBBQ_alpmis.png",
         "price": 810
     },
     {
@@ -239,10 +259,230 @@ const empanada=[
             "arroz condimentado",
             "pimientos"
         ],
+        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447986/E_Polloalwok_wwtsyq.png",
         "price": 850
     }
 ]
 
+const bebidas=[
+    {
+        cervezas:[
+            {
+                "id": 1,
+                "name": "Budweiser",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761966/Budweiser_aytkl8.png",
+                "description": [
+                    "Cerveza Lager",
+                    "Budweiseer 5,0",
+                    "330 ml"
+                ],
+                "price": 10
+            },
+            {
+                "id": 2,
+                "name": "Corona",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Corona_l8iqso.png",
+                "description": [
+                    "Cerveza Light",
+                    "Corona Premier",
+                    "350 ml"
+                ],
+                "price": 12
+            },
+            {
+                "id": 3,
+                "name": "Guiness",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Guiness_eyqhw2.png",
+                "ingredients": [
+                    "Cerveza Negra",
+                    "Guiness Extra Stout",
+                    "330 ml"
+                ],
+                "price": 11
+            },
+            {
+                "id": 4,
+                "name": "Heineken",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Heineken_nylqqd.png",
+                "ingredients": [
+                    "Cerveza Lager",
+                    "Heineken 5.0",
+                    "330 ml"
+                ],
+                "price": 13
+            },
+            {
+                "id": 5,
+                "name": "Brahma",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761963/Brahma_spxrus.webp",
+                "ingredients": [
+                    "Cerveza Rubia",
+                    "Brahma chopp",
+                    "473 ml"
+                ],
+                "price": 14
+            },
+        ],
+        gaseosas:[
+            {
+                "id": 1,
+                "name": "Coca-cola",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762150/Coca_com%C3%BAn_c5aewf.png",
+                "description": [
+                    "Coca-cola normal",
+                    "botella plástico reciclable",
+                    "330 ml"
+                ],
+                "price": 5.0
+            },
+            {
+                "id": 2,
+                "name": "Fanta",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762150/Fanta_naranja_sgwsnw.png",
+                "description": [
+                    "Fanta naranja",
+                    "botella plástico reciclable",
+                    "350 ml"
+                ],
+                "price": 6.0
+            },
+            {
+                "id": 3,
+                "name": "Coca Zero",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762151/Lata_coca_zero_mgevt9.png",
+                "ingredients": [
+                    "Coca zero",
+                    "lata",
+                    "330 ml"
+                ],
+                "price": 5.5
+            },
+            {
+                "id": 4,
+                "name": "Pepsi Zero",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762152/Lata_pepsi_zero_tgpjqc.png",
+                "ingredients": [
+                    "Pepsi zero",
+                    "lata",
+                    "330 ml"
+                ],
+                "price": 6.5
+            },
+            {
+                "id": 5,
+                "name": "Sprite",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762159/Sprite_xysvag.png",
+                "ingredients": [
+                    "Sprite",
+                    "botella plástico reciclable",
+                    "473 ml"
+                ],
+                "price": 6.0
+            },
+            {
+                "id": 6,
+                "name": "Paso de los toros",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762160/Paso_de_los_toros_Pomelo_vaajcr.png",
+                "ingredients": [
+                    "Paso de los toros",
+                    "botella plástico reciclable",
+                    "473 ml"
+                ],
+                "price": 6.5
+            },
+            {
+                "id": 7,
+                "name": "Pepsi",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762164/Pepsi_com%C3%BAn_v2i9g9.png",
+                "ingredients": [
+                    "Pepsi normal",
+                    "botella plástico reciclable",
+                    "473 ml"
+                ],
+                "price": 5.5
+            },
+        ],
+        aguas:[
+            {
+                "id": 1,
+                "name": "Dasani",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762721/Agua_con_gas_gln8xk.png",
+                "description": [
+                    "Agua con gas",
+                    "Sin sabor",
+                    "xxx ml"
+                ],
+                "price": 2.0
+            },
+            {
+                "id": 2,
+                "name": "Aquafina",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762722/Agua_sin_gas_a2bwkb.png",
+                "description": [
+                    "Agua sin gas",
+                    "Sin sabor",
+                    "xxx ml"
+                ],
+                "price": 2.5
+            },
+            {
+                "id": 3,
+                "name": "Aquarius",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762722/Aquarius_Durazno_zvy6dp.png",
+                "ingredients": [
+                    "Agua sin gas",
+                    "Durazno",
+                    "xxx ml"
+                ],
+                "price": 2.2
+            },
+            {
+                "id": 4,
+                "name": "Aquarius",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762721/Aquarius_Manzana_nwfrez.png",
+                "ingredients": [
+                    "Agua sin gas",
+                    "Manzana",
+                    "xxx ml"
+                ],
+                "price": 2.2
+            },
+            {
+                "id": 5,
+                "name": "Aquarius",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762742/Aquarius_Pomelo_obj8jk.png",
+                "ingredients": [
+                    "Agua sin gas",
+                    "Pera",
+                    "xxx ml"
+                ],
+                "price": 2.2
+            },
+            {
+                "id": 6,
+                "name": "Aquarius",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762735/Aquarius_pomelo_rosado_mietue.png",
+                "ingredients": [
+                    "Agua sin gas",
+                    "Pomelo",
+                    "xxx ml"
+                ],
+                "price": 2.2
+            },
+            {
+                "id": 7,
+                "name": "Aquarius",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762734/Aquarius_Pera_gegew0.png",
+                "ingredients": [
+                    "Agua sin gas",
+                    "Uva",
+                    "xxx ml"
+                ],
+                "price": 2.2
+            },
+        ]
+    }
+]
 
-export default { pizzas, empanada };
+export default { pizzas, empanada, bebidas };
 
