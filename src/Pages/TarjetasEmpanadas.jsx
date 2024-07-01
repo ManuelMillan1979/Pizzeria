@@ -33,13 +33,11 @@ const TarjetasEmpanadas = ({ empanadas, seleccionarProducto }) => (
         <IoIosArrowBack className='sm:text-4xl' />
       </div>
     </Link>
-    <div id="container" className="w-11/12 mx-auto">
-      <div className="flex flex-col justify-around sm:flex-row">
+    <div id="container" className="flex justify-center ">
+      <div className="w-[80%] flex flex-wrap ">
         <TarjetaEmpanada empanadas={empanadas} seleccionarProducto={seleccionarProducto} />
       </div>
-      <div className="flex flex-col justify-around sm:flex-row mt-28">
-        <TarjetaEmpanada empanadas={empanadas} seleccionarProducto={seleccionarProducto} />
-      </div>
+     
     </div>
   </div>
 );

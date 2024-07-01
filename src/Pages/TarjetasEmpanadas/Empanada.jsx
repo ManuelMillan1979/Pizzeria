@@ -9,8 +9,8 @@ const Empanada = ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
     <>
 
-      <div key={productoSeleccionado.id} className="flex flex-col justify-center h-screen bg-amber-400">
-        <Link className='m-auto' to={'/'}>
+      <div key={productoSeleccionado.id} className="home flex flex-col justify-center h-[87vh] ">
+        <Link className='' to={'/'}>
           <div className="w-12 px-12 py-12">
             <IoIosArrowBack className='sm:text-4xl' />
           </div>
@@ -19,7 +19,7 @@ const Empanada = ({ productoSeleccionado, agregarAlCarrito }) => {
           <div className="w-full md:w-1/3 bg-amber300 grid place-items-center">
             <img src={productoSeleccionado.img} alt={productoSeleccionado.name} className="transform scale-150 -ml-60" />
           </div>
-          <div className="w-full md:w-2/3 bg-amber-300 flex flex-col justify-between space-y-2 p-3 gap-6">
+          <div className="rectangule11 w-full md:w-2/3  flex flex-col justify-between space-y-2 p-3 gap-6">
             <div className="flex flex-row justify-between items-center">
               <p className="text-black text-3xl font-courgette hidden md:block">
                 {productoSeleccionado.name}
