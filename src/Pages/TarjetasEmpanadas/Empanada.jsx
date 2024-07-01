@@ -1,25 +1,28 @@
 import { FaCartShopping, FaCircleMinus, FaCirclePlus } from "react-icons/fa6";
-import polloalwok from "../../assets/Empanadas/Pollo al wok.png";
-import pollo from "../../assets/Condimentos/Empanadas/Pollo.png";
-import arroz from "../../assets/Condimentos/Empanadas/Arroz condimentado.png";
-import pimientos from "../../assets/Condimentos/Pizzas/Pimientos.png";
+import { Link } from "react-router-dom";
+import rellenoCalabaza from "../../assets/Condimentos/Empanadas/Calabaza.png"
+import muzzarella from "../../assets/Condimentos/Empanadas/Muzzarella.png"
+import { IoIosArrowBack } from "react-icons/io";
 
-const EmpanadaPolloAlWok = () => {
+
+const Empanada = ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
     <>
-      <div className="flex flex-col justify-center h-screen bg-amber-400">
+
+      <div key={productoSeleccionado.id} className="home flex flex-col justify-center h-[87vh] ">
+        <Link className='' to={'/'}>
+          <div className="w-12 px-12 py-12">
+            <IoIosArrowBack className='sm:text-4xl' />
+          </div>
+        </Link>
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 max-w-xs md:max-w-3xl mx-auto bg-amber-300">
           <div className="w-full md:w-1/3 bg-amber300 grid place-items-center">
-            <img
-              src={polloalwok}
-              alt="polloalwok"
-              className="transform scale-150 -ml-60"
-            />
+            <img src={productoSeleccionado.img} alt={productoSeleccionado.name} className="transform scale-150 -ml-60" />
           </div>
-          <div className="w-full md:w-2/3 bg-amber-300 flex flex-col justify-between space-y-2 p-3 gap-6">
+          <div className="rectangule11 w-full md:w-2/3  flex flex-col justify-between space-y-2 p-3 gap-6">
             <div className="flex flex-row justify-between items-center">
               <p className="text-black text-3xl font-courgette hidden md:block">
-                Pollo al wok
+                {productoSeleccionado.name}
               </p>
               <div className="flex items-center space-x-6">
                 <button><FaCirclePlus className="h-10 w-8 text-black" /></button>
@@ -31,32 +34,34 @@ const EmpanadaPolloAlWok = () => {
               </div>
             </div>
             <h3 className="font-arial text-black md:text-2xl text-xl">
-              Pollo crujiente, arroz condimentado y pimientos
+              {productoSeleccionado.ingredients.join(', ')}
             </h3>
             <div className="flex flex-row gap-4">
               <div>
-                <img src={pollo} className="w-44 h-28" />
+                <img src={rellenoCalabaza} className="w-28 h-20" />
               </div>
               <div>
-                <img src={arroz} className="w-28 h-24" />
-              </div>
-              <div>
-                <img src={pimientos} className="w-28 h-24" />
+                <img src={muzzarella} className="w-28 h-20" />
               </div>
             </div>
             <div className="flex flex-row justify-between items-center">
               <p className="text-3xl font-courgette text-black">
                 Precio total:
-                <span className="text-3xl font-normal text-red-500"> $810</span>
+                <span className="text-3xl font-normal text-red-500"> $790</span>
               </p>
-              <button className="bg-red-500  px-10 py-2 rounded-lg text-white text-xl font-arial">
-                Agregar
-              </button>
+              <Link to={'/tu_pedido'} >
+                <button onClick={() => agregarAlCarrito(productoSeleccionado)} className="bg-red-500  px-10 py-2 rounded-lg text-white text-xl font-arial">
+                  Agregar
+                </button>
+              </Link>
+
             </div>
           </div>
         </div>
       </div>
+
     </>
   );
 };
-export default EmpanadaPolloAlWok;
+
+export default Empanada;

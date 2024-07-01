@@ -1,7 +1,5 @@
-
-const pizzas=
-[
-    {
+const pizzas =   [
+ {
         "id": 1,
         "name": "Muzzarella",
         "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733929/Muzzarella_clzf7a.jpg?_s=public-apps",
@@ -10,7 +8,7 @@ const pizzas=
             "queso muzzarella",
             "orégano"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/muzzarella_syh3xh.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/muzzarella_syh3xh.png",
         "price": 11300
     },
     {
@@ -24,7 +22,7 @@ const pizzas=
             "ajo",
             "perejil"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/Napolitana_mjj6y5.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/Napolitana_mjj6y5.png",
         "price": 12500
     },
     {
@@ -37,7 +35,7 @@ const pizzas=
             "ajo",
             "cebolla"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Napo_especial_zsjkql.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Napo_especial_zsjkql.png",
         "price": 14900
     },
     {
@@ -50,7 +48,7 @@ const pizzas=
             "aceitunas",
             "champignon"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Napo_power_ic6pjs.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Napo_power_ic6pjs.png",
         "price": 14800
     },
     {
@@ -64,7 +62,7 @@ const pizzas=
             "olivas negras",
             "albaca"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Caprese_nxfrme.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Caprese_nxfrme.png",
         "price": 11900
     },
     {
@@ -77,7 +75,7 @@ const pizzas=
             "gruyere",
             "oroquefort"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/4quesos_utft6b.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/4quesos_utft6b.png",
         "price": 13700
     },
     {
@@ -90,7 +88,7 @@ const pizzas=
             "pimientos",
             "cebolla"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Calabresa_qigxfy.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Calabresa_qigxfy.png",
         "price": 14200
     },
     {
@@ -104,7 +102,7 @@ const pizzas=
             "pollo",
             "orégano"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445248/donremolo_ymnmb5.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445248/donremolo_ymnmb5.png",
         "price": 13700
     },
     {
@@ -118,7 +116,7 @@ const pizzas=
             "panceta crocante",
             "champignon"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445243/100_panceta_dvx3c2.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445243/100_panceta_dvx3c2.png",
         "price": 14200
     },
     {
@@ -130,7 +128,7 @@ const pizzas=
             "queso muzzarella",
             "pepperoni"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/pepperoni_wyikml.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/pepperoni_wyikml.png",
         "price": 13700
     },
     {
@@ -143,7 +141,7 @@ const pizzas=
             "rodajas de tomate",
             "olivas negras"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/veggi_fzflae.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/veggi_fzflae.png",
         "price": 11500
     },
     {
@@ -156,7 +154,7 @@ const pizzas=
             "pimientos",
             "olivas negras"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445241/veggiPower_t3tmqb.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445241/veggiPower_t3tmqb.png",
         "price": 12800
     },
     {
@@ -169,7 +167,7 @@ const pizzas=
             "tomate cherry",
             "champignon"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/polloEspecial_vmlb2z.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/polloEspecial_vmlb2z.png",
         "price": 14200
     },
     {
@@ -183,7 +181,7 @@ const pizzas=
             "100% panceta",
             "4 quesos"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/SuperEspecial_yfakbs.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/SuperEspecial_yfakbs.png",
         "price": 15300
     }
 ]
@@ -484,5 +482,4 @@ const bebidas=[
     }
 ]
 
-export default { pizzas, empanada, bebidas };
-
+export default {pizzas,empanada,bebidas}
