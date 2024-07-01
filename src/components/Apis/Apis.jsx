@@ -10,7 +10,7 @@ const pizzas=
             "queso muzzarella",
             "orégano"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/muzzarella_syh3xh.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/muzzarella_syh3xh.png",
         "price": 11300
     },
     {
@@ -24,7 +24,7 @@ const pizzas=
             "ajo",
             "perejil"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/Napolitana_mjj6y5.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445254/Napolitana_mjj6y5.png",
         "price": 12500
     },
     {
@@ -37,7 +37,7 @@ const pizzas=
             "ajo",
             "cebolla"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Napo_especial_zsjkql.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Napo_especial_zsjkql.png",
         "price": 14900
     },
     {
@@ -50,7 +50,7 @@ const pizzas=
             "aceitunas",
             "champignon"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Napo_power_ic6pjs.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Napo_power_ic6pjs.png",
         "price": 14800
     },
     {
@@ -64,7 +64,7 @@ const pizzas=
             "olivas negras",
             "albaca"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Caprese_nxfrme.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445253/Caprese_nxfrme.png",
         "price": 11900
     },
     {
@@ -77,7 +77,7 @@ const pizzas=
             "gruyere",
             "oroquefort"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/4quesos_utft6b.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/4quesos_utft6b.png",
         "price": 13700
     },
     {
@@ -90,7 +90,7 @@ const pizzas=
             "pimientos",
             "cebolla"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Calabresa_qigxfy.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445249/Calabresa_qigxfy.png",
         "price": 14200
     },
     {
@@ -104,7 +104,7 @@ const pizzas=
             "pollo",
             "orégano"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445248/donremolo_ymnmb5.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445248/donremolo_ymnmb5.png",
         "price": 13700
     },
     {
@@ -118,7 +118,7 @@ const pizzas=
             "panceta crocante",
             "champignon"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445243/100_panceta_dvx3c2.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445243/100_panceta_dvx3c2.png",
         "price": 14200
     },
     {
@@ -130,7 +130,7 @@ const pizzas=
             "queso muzzarella",
             "pepperoni"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/pepperoni_wyikml.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/pepperoni_wyikml.png",
         "price": 13700
     },
     {
@@ -143,7 +143,7 @@ const pizzas=
             "rodajas de tomate",
             "olivas negras"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/veggi_fzflae.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445242/veggi_fzflae.png",
         "price": 11500
     },
     {
@@ -156,7 +156,7 @@ const pizzas=
             "pimientos",
             "olivas negras"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445241/veggiPower_t3tmqb.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445241/veggiPower_t3tmqb.png",
         "price": 12800
     },
     {
@@ -169,7 +169,7 @@ const pizzas=
             "tomate cherry",
             "champignon"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/polloEspecial_vmlb2z.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/polloEspecial_vmlb2z.png",
         "price": 14200
     },
     {
@@ -183,7 +183,7 @@ const pizzas=
             "100% panceta",
             "4 quesos"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/SuperEspecial_yfakbs.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/SuperEspecial_yfakbs.png",
         "price": 15300
     }
 ]
@@ -200,7 +200,7 @@ const empanada=[
             "morrón",
             "aceituna verdes"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/E_100carne_v3j6dm.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445225/E_100carne_v3j6dm.png",
         "price": 850
     },
     {
@@ -211,7 +211,7 @@ const empanada=[
             "Calabaza",
             "queso muzzarrella"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1719445224/E_Calabaza_kquyie.jpg?_s=public-apps",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1719445224/E_Calabaza_kquyie.jpg?_s=public-apps",
         "price": 790
     },
     {
@@ -222,7 +222,7 @@ const empanada=[
             "Solomillo de cerdo",
             "queso muzzarrella"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_porkAgri_cekwni.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_porkAgri_cekwni.png",
         "price": 880
     },
     {
@@ -235,7 +235,7 @@ const empanada=[
             "queso gratinado",
             "huevo"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_panceta_ujpoip.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_panceta_ujpoip.png",
         "price": 830
     },
     {
@@ -247,7 +247,7 @@ const empanada=[
             "barbacoa",
             "cebolla"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445224/E_PolloBBQ_alpmis.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719445224/E_PolloBBQ_alpmis.png",
         "price": 810
     },
     {
@@ -259,7 +259,7 @@ const empanada=[
             "arroz condimentado",
             "pimientos"
         ],
-        "img.ingredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447986/E_Polloalwok_wwtsyq.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447986/E_Polloalwok_wwtsyq.png",
         "price": 850
     }
 ]
@@ -276,7 +276,7 @@ const bebidas=[
                     "Budweiseer 5,0",
                     "330 ml"
                 ],
-                "price": 10
+                "price": 8000000
             },
             {
                 "id": 2,
@@ -287,35 +287,35 @@ const bebidas=[
                     "Corona Premier",
                     "350 ml"
                 ],
-                "price": 12
+                "price": 11
             },
             {
                 "id": 3,
                 "name": "Guiness",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Guiness_eyqhw2.png",
-                "ingredients": [
+                "description": [
                     "Cerveza Negra",
                     "Guiness Extra Stout",
                     "330 ml"
                 ],
-                "price": 11
+                "price": 10
             },
             {
                 "id": 4,
                 "name": "Heineken",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Heineken_nylqqd.png",
-                "ingredients": [
+                "description": [
                     "Cerveza Lager",
                     "Heineken 5.0",
                     "330 ml"
                 ],
-                "price": 13
+                "price": 12
             },
             {
                 "id": 5,
                 "name": "Brahma",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761963/Brahma_spxrus.webp",
-                "ingredients": [
+                "description": [
                     "Cerveza Rubia",
                     "Brahma chopp",
                     "473 ml"
@@ -350,7 +350,7 @@ const bebidas=[
                 "id": 3,
                 "name": "Coca Zero",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762151/Lata_coca_zero_mgevt9.png",
-                "ingredients": [
+                "description": [
                     "Coca zero",
                     "lata",
                     "330 ml"
@@ -361,7 +361,7 @@ const bebidas=[
                 "id": 4,
                 "name": "Pepsi Zero",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762152/Lata_pepsi_zero_tgpjqc.png",
-                "ingredients": [
+                "description": [
                     "Pepsi zero",
                     "lata",
                     "330 ml"
