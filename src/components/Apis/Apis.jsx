@@ -269,58 +269,43 @@ const bebidas=[
         cervezas:[
             {
                 "id": 1,
-                "name": "Budweiser",
+                "name": "Cerveza Budweiser",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761966/Budweiser_aytkl8.png",
                 "description": [
                     "Cerveza Lager",
-                    "Budweiseer 5,0",
                     "330 ml"
                 ],
-                "price": 8000000
+                "price": 1830
             },
             {
                 "id": 2,
-                "name": "Corona",
+                "name": "Cerveza Corona",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Corona_l8iqso.png",
                 "description": [
-                    "Cerveza Light",
-                    "Corona Premier",
+                    "Rubia Premier",
                     "350 ml"
                 ],
-                "price": 11
+                "price": 2240
             },
             {
                 "id": 3,
-                "name": "Guiness",
+                "name": "Cerveza Guiness",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Guiness_eyqhw2.png",
                 "description": [
-                    "Cerveza Negra",
-                    "Guiness Extra Stout",
+                    "Extra Stout",
                     "330 ml"
                 ],
-                "price": 10
+                "price": 2290
             },
             {
                 "id": 4,
-                "name": "Heineken",
+                "name": "Cerveza Heineken",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Heineken_nylqqd.png",
                 "description": [
                     "Cerveza Lager",
-                    "Heineken 5.0",
                     "330 ml"
                 ],
-                "price": 12
-            },
-            {
-                "id": 5,
-                "name": "Brahma",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761963/Brahma_spxrus.webp",
-                "description": [
-                    "Cerveza Rubia",
-                    "Brahma chopp",
-                    "473 ml"
-                ],
-                "price": 14
+                "price": 1920
             },
         ],
         gaseosas:[
@@ -330,159 +315,222 @@ const bebidas=[
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762150/Coca_com%C3%BAn_c5aewf.png",
                 "description": [
                     "Coca-cola normal",
-                    "botella plástico reciclable",
-                    "330 ml"
+                    "600 ml"
                 ],
-                "price": 5.0
+                "price": 1550
             },
             {
                 "id": 2,
-                "name": "Fanta",
+                "name": "Fanta Naranja",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762150/Fanta_naranja_sgwsnw.png",
                 "description": [
-                    "Fanta naranja",
-                    "botella plástico reciclable",
-                    "350 ml"
+                    "botella Fanta",
+                    "500 ml"
                 ],
-                "price": 6.0
+                "price": 1450
             },
             {
                 "id": 3,
                 "name": "Coca Zero",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762151/Lata_coca_zero_mgevt9.png",
                 "description": [
-                    "Coca zero",
-                    "lata",
-                    "330 ml"
+                    "lata Coca Cola sin azúcar",
+                    "350 ml"
                 ],
-                "price": 5.5
+                "price": 1200
             },
             {
                 "id": 4,
                 "name": "Pepsi Zero",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762152/Lata_pepsi_zero_tgpjqc.png",
                 "description": [
-                    "Pepsi zero",
-                    "lata",
-                    "330 ml"
+                    "lata Pepsi sin azúcar",
+                    "350 ml"
                 ],
-                "price": 6.5
+                "price": 1200
             },
             {
                 "id": 5,
                 "name": "Sprite",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762159/Sprite_xysvag.png",
-                "ingredients": [
-                    "Sprite",
+                "description": [
                     "botella plástico reciclable",
-                    "473 ml"
+                    "600 ml"
                 ],
-                "price": 6.0
+                "price": 1550
             },
             {
                 "id": 6,
                 "name": "Paso de los toros",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762160/Paso_de_los_toros_Pomelo_vaajcr.png",
-                "ingredients": [
-                    "Paso de los toros",
-                    "botella plástico reciclable",
-                    "473 ml"
+                "description": [
+                    "Pomelo",
+                    "500 ml"
                 ],
-                "price": 6.5
+                "price": 1450
             },
             {
                 "id": 7,
                 "name": "Pepsi",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762164/Pepsi_com%C3%BAn_v2i9g9.png",
-                "ingredients": [
+                "description": [
                     "Pepsi normal",
-                    "botella plástico reciclable",
-                    "473 ml"
+                    "600 ml"
                 ],
-                "price": 5.5
+                "price": 1550
             },
         ],
         aguas:[
             {
                 "id": 1,
-                "name": "Dasani",
+                "name": "Agua Mineral",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762721/Agua_con_gas_gln8xk.png",
                 "description": [
-                    "Agua con gas",
-                    "Sin sabor",
-                    "xxx ml"
+                    "Dasani con gas",
+                    "500 ml"
                 ],
-                "price": 2.0
+                "price": 1100
             },
             {
                 "id": 2,
-                "name": "Aquafina",
+                "name": "Agua Mineral",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762722/Agua_sin_gas_a2bwkb.png",
                 "description": [
-                    "Agua sin gas",
-                    "Sin sabor",
-                    "xxx ml"
+                    "Aquafina sin gas",
+                    "500 ml"
                 ],
-                "price": 2.5
+                "price": 1100
             },
             {
                 "id": 3,
-                "name": "Aquarius",
+                "name": "Agua saborizada",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762722/Aquarius_Durazno_zvy6dp.png",
-                "ingredients": [
-                    "Agua sin gas",
-                    "Durazno",
-                    "xxx ml"
+                "description": [
+                    "Aquarius Durazno",
+                    "600 ml"
                 ],
-                "price": 2.2
+                "price": 1350
             },
             {
                 "id": 4,
-                "name": "Aquarius",
+                "name": "Agua saborizada",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762721/Aquarius_Manzana_nwfrez.png",
-                "ingredients": [
-                    "Agua sin gas",
-                    "Manzana",
-                    "xxx ml"
+                "description": [
+                    "Aquarius Manzana",
+                    "600 ml"
                 ],
-                "price": 2.2
+                "price": 1350
             },
             {
                 "id": 5,
-                "name": "Aquarius",
+                "name": "Agua saborizada",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762742/Aquarius_Pomelo_obj8jk.png",
-                "ingredients": [
-                    "Agua sin gas",
-                    "Pera",
-                    "xxx ml"
+                "description": [
+                    "Aquarius Pera",
+                    "600 ml"
                 ],
-                "price": 2.2
+                "price": 1350
             },
             {
                 "id": 6,
-                "name": "Aquarius",
+                "name": "Agua saborizada",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762735/Aquarius_pomelo_rosado_mietue.png",
-                "ingredients": [
-                    "Agua sin gas",
-                    "Pomelo",
-                    "xxx ml"
+                "description": [
+                    "Aquarius Pomelo",
+                    "600 ml"
                 ],
-                "price": 2.2
+                "price": 1350
             },
             {
                 "id": 7,
-                "name": "Aquarius",
+                "name": "Agua saborizada",
                 "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762734/Aquarius_Pera_gegew0.png",
-                "ingredients": [
-                    "Agua sin gas",
-                    "Uva",
-                    "xxx ml"
+                "description": [
+                    "Aquarius Uva",
+                    "600 ml"
                 ],
-                "price": 2.2
+                "price": 1350
             },
         ]
     }
 ]
 
-export default { pizzas, empanada, bebidas };
+const postres=[
+    {
+        "id": 1,
+        "name": "Bombón Suizo",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387603/bomb%C3%B3n_suizo_igve4b.svg",
+        "description": [
+            "bizcocho de chocolate,",
+            "relleno con una exquisita crema"
+        ],
+        "price": 850
+    },
+    {
+        "id": 2,
+        "name": "Bombón Escocés",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387603/Bomb%C3%B3n_Escoc%C3%A9s_mqn0w9.svg",
+        "description": [
+            "dulce de chocolate relleno con crema y dulce de leche"
+        ],
+        "price": 850
+    },
+    {
+        "id": 3,
+        "name": "Bombón Balcarse",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387602/Bomb%C3%B3n_Balcarse_mqde5g.svg",
+        "ingredients": [
+            "bizcocho de chocolate esponjoso",
+            "cubierto con capa de chocolate"
+        ],
+        "price": 850
+    },
+    {
+        "id": 4,
+        "name": "Flan mixto",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387602/Flan_mixto_exj7mt.svg",
+        "ingredients": [
+            "Postre lácteo tradicional"
+        ],
+        "price": 790
+    },
+    {
+        "id": 5,
+        "name": "Brownie con helado",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387601/Brownie_con_helado_znbcqm.svg",
+        "ingredients": [
+            "brownie de chocolate caliente y helado de vainilla"
+        ],
+        "price": 1320
+    },
+    {
+        "id": 6,
+        "name": "Ensalada de fruta",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387601/Ensalada_de_fruta_njwd4b.svg",
+        "ingredients": [
+            "variedad de frutas cortadas en trozos o rodajas"
+        ],
+        "price": 820
+    },
+    {
+        "id": 7,
+        "name": "Porción de Cheesecake de frutos rojos",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387591/Porci%C3%B3n_de_Cheesecake_de_frutos_rojos_kanteh.svg",
+        "ingredients": [
+            "capa cremosa de queso y el contraste de los frutos rojos frescos"
+        ],
+        "price": 1450
+    },
+    {
+        "id": 8,
+        "name": "Porción de Lemon Pie",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720389123/Don_r%C3%A9molo_14_cqsdqu.svg",
+        "ingredients": [
+            "tarta de limón",
+            "rellena de crema de limón"
+        ],
+        "price": 1450
+    }
+]
+export default { pizzas, empanada, bebidas, postres };
 
