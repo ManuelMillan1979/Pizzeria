@@ -1,7 +1,5 @@
-
-const pizzas=
-[
-    {
+const pizzas =   [
+ {
         "id": 1,
         "name": "Muzzarella",
         "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733929/Muzzarella_clzf7a.jpg?_s=public-apps",
@@ -484,5 +482,4 @@ const bebidas=[
     }
 ]
 
-export default { pizzas, empanada, bebidas };
-
+export default {pizzas,empanada,bebidas}
