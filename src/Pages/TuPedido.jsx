@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { IoIosArrowBack } from "react-icons/io";
 import { Link } from 'react-router-dom';
 
-const TuPedido = ({ carrito, eliminarDelCarrito }) => {
+const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
     return (
 
         <div className={`home sm:${carrito.length > 0 ? 'h-auto' : 'h-[100vh]'} sm:flex flex-col justify-between lg:h-[100vh]`}>
@@ -118,4 +118,4 @@ const TuPedido = ({ carrito, eliminarDelCarrito }) => {
     )
 }
 
-export default TuPedido 
+export default TuPedido

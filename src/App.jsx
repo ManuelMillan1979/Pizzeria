@@ -14,7 +14,7 @@ import Seleccion_Pizza from './Pages/TarjetasPizzas/Pizza.jsx';
 
 
 function App() {
-  const { pizzas, empanada } = productos
+  const { pizzas, empanada} = productos
   const [Pizza] = useState(pizzas);
   const [empanadas] = useState(empanada);
 
