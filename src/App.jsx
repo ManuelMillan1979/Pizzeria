@@ -11,35 +11,45 @@ import { useState } from 'react';
 import Empanada from './Pages/TarjetasEmpanadas/Empanada.jsx';
 import Seleccion_Pizza from './Pages/TarjetasPizzas/Pizza.jsx';
 
-
-
 function App() {
-  const { pizzas, empanada} = productos
+  const { pizzas, empanada } = productos;
   const [Pizza] = useState(pizzas);
   const [empanadas] = useState(empanada);
 
   const [carrito, setCarrito] = useState([]);
-  console.log(carrito);
   const [productoSeleccionado, setProductoSeleccionado] = useState(null);
-  console.log(productoSeleccionado);
 
   const seleccionarProducto = (producto) => {
     setProductoSeleccionado(producto);
   };
 
   const agregarAlCarrito = (producto) => {
-    setCarrito([...carrito, producto]);
+    setCarrito(prevCarrito => {
+      const itemExistente = prevCarrito.find(item => item.id === producto.id);
+      if (itemExistente) {
+        return prevCarrito.map(item =>
+          item.id === producto.id ? { ...item, cantidad: item.cantidad + 1 } : item
+        );
+      } else {
+        return [...prevCarrito, { ...producto, cantidad: 1 }];
+      }
+    });
   };
 
   const eliminarDelCarrito = (id) => {
-    setCarrito(carrito.filter((producto) => producto.id !== id));
+    setCarrito(prevCarrito => 
+      prevCarrito.map(item => 
+        item.id === id ? { ...item, cantidad: item.cantidad - 1 } : item
+      ).filter(item => item.cantidad > 0)
+    );
   };
+
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/tu_pedido" element={<TuPedido carrito={carrito} eliminarDelCarrito={eliminarDelCarrito} />} />
+        <Route path="/tu_pedido" element={<TuPedido carrito={carrito} agregarAlCarrito={agregarAlCarrito} eliminarDelCarrito={eliminarDelCarrito} />} />
         <Route path="/tarjetasPizzas" element={<TarjetasPizzas Pizza={Pizza} seleccionarProducto={seleccionarProducto} />} />
         <Route path="/tarjetasEmpanadas" element={<TarjetasEmpanadas empanadas={empanadas} seleccionarProducto={seleccionarProducto} />} />
         <Route path="/tarjetasBebidas" element={<TarjetasBebidas />} />
