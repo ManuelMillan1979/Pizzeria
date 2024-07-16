@@ -37,8 +37,8 @@ function App() {
   };
 
   const eliminarDelCarrito = (id) => {
-    setCarrito(prevCarrito => 
-      prevCarrito.map(item => 
+    setCarrito(prevCarrito =>
+      prevCarrito.map(item =>
         item.id === id ? { ...item, cantidad: item.cantidad - 1 } : item
       ).filter(item => item.cantidad > 0)
     );
