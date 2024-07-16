@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 import { IoIosArrowBack } from "react-icons/io";
 
 
-const Empanada = ({ productoSeleccionado, agregarAlCarrito }) => {
+const BebidasVarias = ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
-    <>
 
-      <div key={productoSeleccionado.id} className="home flex flex-col justify-center h-[87vh] ">
-        <Link className='' to={'/'}>
+
+      <div key={productoSeleccionado.id} className="home flex flex-col justify-center h-screen ">
+        <Link className='' to={'/TarjetasBebidas'}>
           <div className="w-12 px-12 py-12">
             <IoIosArrowBack className='sm:text-4xl' />
           </div>
         </Link>
         <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 max-w-xs md:max-w-3xl mx-auto bg-amber-300">
           <div className="w-full md:w-1/3 bg-amber300 grid place-items-center">
-            <img src={productoSeleccionado.img} alt={productoSeleccionado.name} className="transform scale-150 -ml-60" />
+            <img src={productoSeleccionado.img} alt={productoSeleccionado.name} className="h-[12rem] object-cover mx-auto  transform scale-150 " />
           </div>
           <div className="rectangule11 w-full md:w-2/3  flex flex-col justify-between space-y-2 p-3 gap-6">
             <div className="flex flex-row justify-between items-center">
@@ -32,14 +32,10 @@ const Empanada = ({ productoSeleccionado, agregarAlCarrito }) => {
               </div>
             </div>
             <h3 className="font-arial text-black md:text-2xl text-xl">
-              {productoSeleccionado.ingredients.join(', ')}
+              {productoSeleccionado.description.join(', ')}
             </h3>
-            <div className="flex flex-row gap-4 ">
-              <div>
-                <img src={productoSeleccionado.imgIngredients} className=" w-full h-20" />
-              </div>
+            <div className="flex flex-row gap-4">
              
-            </div>
             <div className="flex flex-row justify-between items-center">
               <p className="text-3xl font-courgette text-black">
                 Precio total:
@@ -56,8 +52,8 @@ const Empanada = ({ productoSeleccionado, agregarAlCarrito }) => {
         </div>
       </div>
 
-    </>
+      </div>
   );
 };
 
-export default Empanada;
+export default BebidasVarias;

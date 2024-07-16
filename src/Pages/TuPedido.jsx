@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const TuPedido = ({ carrito, eliminarDelCarrito }) => {
     return (
 
-        <div className={`home sm:${carrito.length > 0 ? 'h-auto' : 'h-[100vh]'} sm:flex flex-col justify-between lg:h-[100vh]`}>
+        <div className={`home sm:${carrito.length > 0 ? 'h-auto' : 'h-[100vh]'} sm:flex flex-col justify-between `}>
             <div className="flex justify-center">
                 <Link className='m-auto' to={'/'}>
                     <div>
@@ -34,8 +34,8 @@ const TuPedido = ({ carrito, eliminarDelCarrito }) => {
                         <div key={item.id} className='w-full flex justify-between'>
                             <div className="w-[71%] flex justify-center">
 
-                                <div className='flex '>
-                                    <div className='md:mr-5 lg:mr-20 '>
+                                <div className='w-1/2 flex justify-around'>
+                                    <div className='w-1/2 flex justify-center'>
                                         <img className='md:[6rem] lg:h-[12rem]' src={item.img} alt="" />
                                     </div>
                                     <div className='flex justify-center items-center'>
