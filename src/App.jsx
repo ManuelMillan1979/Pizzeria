@@ -14,11 +14,7 @@ import BebidasVarias from './Pages/BebidasVarias/BebidasVarias.jsx';
 
 
 function App() {
-<<<<<<< HEAD
   const { pizzas, empanada, bebidas } = productos
-=======
-  const { pizzas, empanada } = productos;
->>>>>>> b40bcb163c2f82f7827d0e6fb34ba32feb00b9ff
   const [Pizza] = useState(pizzas);
   const [empanadas] = useState(empanada);
 

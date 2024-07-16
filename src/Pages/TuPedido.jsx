@@ -9,12 +9,8 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
     // Calcular el precio total
     const precioTotal = carrito.reduce((total, item) => total + item.price * item.cantidad, 0);
 
-<<<<<<< HEAD
-        <div className={`home sm:${carrito.length > 0 ? 'h-auto' : 'h-[100vh]'} sm:flex flex-col justify-between `}>
-=======
     return (
         <div className={`home sm:${carrito.length > 0 ? 'h-auto' : 'h-[100vh]'} sm:flex flex-col justify-between lg:h-[100vh]`}>
->>>>>>> b40bcb163c2f82f7827d0e6fb34ba32feb00b9ff
             <div className="flex justify-center">
                 <Link className='m-auto' to={'/'}>
                     <div>
