@@ -1,6 +1,8 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
+import { FaCartShopping } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -20,6 +22,9 @@ const Navbar = () => {
                 <div>
                     <FaInstagram className="text-white w-6 size-[20px] sm:size-[37px] 2xl:size-[50px] " />
                 </div>
+                <Link to={'/tu_pedido'}>
+                <FaCartShopping className="text-white w-4 size-[20px] sm:size-[37px] 2xl:size-[50px] " />
+                </Link>
             </div>
 
 

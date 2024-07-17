@@ -18,7 +18,6 @@ function App() {
   const [Pizza] = useState(pizzas);
   const [empanadas] = useState(empanada);
 
-
   const [carrito, setCarrito] = useState([]);
   const [productoSeleccionado, setProductoSeleccionado] = useState(null);
 
@@ -28,10 +27,10 @@ function App() {
 
   const agregarAlCarrito = (producto) => {
     setCarrito(prevCarrito => {
-      const itemExistente = prevCarrito.find(item => item.id === producto.id);
+      const itemExistente = prevCarrito.find(item => item.name === producto.name);
       if (itemExistente) {
         return prevCarrito.map(item =>
-          item.id === producto.id ? { ...item, cantidad: item.cantidad + 1 } : item
+          item.name === producto.name ? { ...item, cantidad: item.cantidad + 1 } : item
         );
       } else {
         return [...prevCarrito, { ...producto, cantidad: 1 }];
@@ -39,10 +38,10 @@ function App() {
     });
   };
 
-  const eliminarDelCarrito = (id) => {
+  const eliminarDelCarrito = (name) => {
     setCarrito(prevCarrito =>
       prevCarrito.map(item =>
-        item.id === id ? { ...item, cantidad: item.cantidad - 1 } : item
+        item.name === name ? { ...item, cantidad: item.cantidad - 1 } : item
       ).filter(item => item.cantidad > 0)
     );
   };

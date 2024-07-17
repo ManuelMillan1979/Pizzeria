@@ -48,7 +48,7 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                             </div>
                             <div className='flex items-center'>
                                 <div className='w-20 sm:w-60 sm:h-16 rounded-lg flex justify-around items-center border border-black'>
-                                    <Link onClick={() => eliminarDelCarrito(item.id)}>
+                                    <Link onClick={() => eliminarDelCarrito(item.name)}>
                                         <FaRegTrashAlt className='sm:text-2xl' />
                                     </Link>
                                     <p className='sm:text-3xl'>
