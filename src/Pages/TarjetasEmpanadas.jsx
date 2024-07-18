@@ -6,7 +6,7 @@ const TarjetaEmpanada = ({ empanadas, seleccionarProducto }) => (
   <>
 
     {empanadas.map((item) => (
-      <div key={item.id} className=" sm:w-1/4 p-2 mt-32 flex flex-col ">
+      <div key={item.id} className="w-full sm:w-1/2  xl:w-1/3 p-2 mt-32">
         <div className=" px-6 py-8 rounded-lg shadow-lg text-center flex flex-col h-full">
           <div className="mb-3">
             <img className="w-auto mx-auto rounded-full -mt-28" src={item.img} alt={item.name} />
@@ -16,7 +16,7 @@ const TarjetaEmpanada = ({ empanadas, seleccionarProducto }) => (
           </h2>
           <span className="text-black block mb-5 flex-grow">{item.ingredients.join(', ')}</span>
           <div className="flex justify-end w-full mt-auto">
-            <Link to={'/empanada'}>
+            <Link to={'/pizza'}>
               <button onClick={() => seleccionarProducto(item)} className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full">+Info</button>
             </Link>
           </div>

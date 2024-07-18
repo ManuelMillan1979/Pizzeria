@@ -4,25 +4,25 @@ import { IoIosArrowBack } from "react-icons/io";
 
 const Seleccion_Pizza = ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
-    <div className="home h-[88vh]">
+    <div className="home  ">
        <Link className='m-auto' to={'/'}>
           <div className="w-12 px-12 py-12">
             <IoIosArrowBack className='sm:text-4xl' />
           </div>
         </Link>
-      <div key={productoSeleccionado.id} className="flex flex-col ">
+      <div key={productoSeleccionado.id} className=" h-[85vh] lg:flex flex-col justify-center ">
        
-        <div className="relative flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 max-w-xs md:max-w-3xl mx-auto bg-amber-300">
-          <div className="w-full md:w-1/3 bg-amber300 grid place-items-center">
+        <div className="relative mb-10 flex flex-col xl:max-w-full lg:flex-row md:items-center md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 max-w-xs md:max-w-xl mx-auto ">
+          <div className="w-full md:w-1/3  grid place-items-center">
             <img
               src={productoSeleccionado.img}
               alt="napo espacial"
-              className="transform scale-150 -ml-60"
+              className="lg:transform lg:scale-150  lg:-ml-60"
             />
           </div>
-          <div className="w-full md:w-2/3 bg-amber-300 flex flex-col justify-between space-y-2 p-3 gap-6">
-            <div className="flex flex-row justify-between items-center">
-              <p className="text-black text-3xl font-courgette hidden md:block">
+          <div className="w-full md:w-2/3 space-y-2 p-3 gap-6">
+            <div className="flex justify-center sm:flex-row sm:justify-between items-center">
+              <p className="text-black text-3xl font-courgette mr-3">
                 {productoSeleccionado.name}
               </p>
               <div className="flex items-center space-x-6">

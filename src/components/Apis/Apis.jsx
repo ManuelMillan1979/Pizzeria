@@ -460,7 +460,7 @@ const postres=[
         "id": 1,
         "name": "Bombón Suizo",
         "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387603/bomb%C3%B3n_suizo_igve4b.svg",
-        "description": [
+        "ingredients": [
             "bizcocho de chocolate,",
             "relleno con una exquisita crema"
         ],
@@ -470,7 +470,7 @@ const postres=[
         "id": 2,
         "name": "Bombón Escocés",
         "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387603/Bomb%C3%B3n_Escoc%C3%A9s_mqn0w9.svg",
-        "description": [
+        "ingredients": [
             "dulce de chocolate relleno con crema y dulce de leche"
         ],
         "price": 850

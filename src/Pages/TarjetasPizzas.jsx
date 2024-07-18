@@ -13,8 +13,8 @@ const TarjetasPizzas = ({ Pizza, seleccionarProducto }) => {
       <div id="container" className="w-4/5 mx-auto">
         <div className="flex flex-wrap justify-center">
           {Pizza.map((pizza) => (
-            <div key={pizza.id} className="sm:w-1/4 p-2 mt-32">
-              <div className="rectangule11 h-full px-6 py-8 rounded-lg shadow-lg text-center">
+            <div key={pizza.id} className="w-full sm:w-1/2  xl:w-1/4 p-2 mt-32">
+              <div className=" h-full px-6 py-8 rounded-lg shadow-lg text-center">
                 <div className="mb-3">
                   <img className="w-auto mx-auto rounded-full -mt-20" src={pizza.img} alt={pizza.name} />
                 </div>

@@ -11,10 +11,12 @@ import productos from "./components/Apis/Apis.jsx"
 import Empanada from './Pages/TarjetasEmpanadas/Empanada.jsx';
 import Seleccion_Pizza from './Pages/TarjetasPizzas/Pizza.jsx';
 import BebidasVarias from './Pages/BebidasVarias/BebidasVarias.jsx';
+import TarjetasPostres from './Pages/TarjetasPostres.jsx';
+
 
 
 function App() {
-  const { pizzas, empanada, bebidas } = productos
+  const { pizzas, empanada, bebidas, postres } = productos
   const [Pizza] = useState(pizzas);
   const [empanadas] = useState(empanada);
 
@@ -58,6 +60,7 @@ function App() {
         <Route path="/empanada" element={<Empanada productoSeleccionado={productoSeleccionado} agregarAlCarrito={agregarAlCarrito} />} />
         <Route path='/pizza' element={<Seleccion_Pizza productoSeleccionado={productoSeleccionado} agregarAlCarrito={agregarAlCarrito} />} />
         <Route path="/bebidas-varias" element={<BebidasVarias productoSeleccionado={productoSeleccionado} agregarAlCarrito={agregarAlCarrito} />} />
+        <Route path="/tarjetas-Postres" element={<TarjetasPostres postres={postres} seleccionarProducto={seleccionarProducto} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

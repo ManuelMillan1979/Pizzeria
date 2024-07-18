@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
@@ -10,7 +9,7 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
     const precioTotal = carrito.reduce((total, item) => total + item.price * item.cantidad, 0);
 
     return (
-        <div className={`home sm:${carrito.length > 0 ? 'h-auto' : 'h-[100vh]'} sm:flex flex-col justify-between lg:h-[100vh]`}>
+        <div className={`home ${carrito.length > 0 ? 'h-auto' : 'h-[88vh]'} sm:flex flex-col justify-between`}>
             <div className="flex justify-center">
                 <Link className='m-auto' to={'/'}>
                     <div>
@@ -22,7 +21,7 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                 </p>
             </div>
 
-            <div className=''>
+            <div >
                 <div className='flex flex-col mx-4 sm:mx-24'>
                     <div className="h-40 w-1/2 flex justify-center items-center">
                         <h2 className="font-courgette sm:text-5xl">
@@ -31,12 +30,12 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                     </div>
                     {carrito.map((item) => (
                         <div key={item.id} className='w-full flex justify-between'>
-                            <div className="w-[71%] flex justify-center">
-                                <div className='flex'>
-                                    <div className='md:mr-5 lg:mr-20'>
+                            <div className="w-full ">
+                                <div className='flex justify-around'>
+                                    <div className=''>
                                         <img className='md:[6rem] lg:h-[12rem]' src={item.img} alt={item.name} />
                                     </div>
-                                    <div className='flex justify-center items-center'>
+                                    <div className='w-1/3 flex justify-between items-center'>
                                         <h2 className='font-courgette sm:text-3xl'>
                                             {item.name}
                                         </h2>
