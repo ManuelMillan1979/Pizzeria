@@ -6,8 +6,8 @@ const TarjetasPizzas = ({ Pizza, seleccionarProducto }) => {
   return (
     <div className="home h-full">
       <Link className='m-auto' to={'/'}>
-        <div className="px-12 py-12">
-          <IoIosArrowBack className='sm:text-4xl' />
+        <div className="pl-12 pt-12">
+          <IoIosArrowBack className='text-4xl sm:text-4xl' />
         </div>
       </Link>
       <div id="container" className="w-4/5 mx-auto">

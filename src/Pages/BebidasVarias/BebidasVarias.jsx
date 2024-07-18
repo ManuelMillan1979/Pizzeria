@@ -6,18 +6,18 @@ const BebidasVarias= ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
     <div className="home  ">
        <Link className='m-auto' to={'/'}>
-          <div className="w-12 px-12 py-12">
-            <IoIosArrowBack className='sm:text-4xl' />
+          <div className="w-12 pl-12 pt-12">
+            <IoIosArrowBack className='text-4xl sm:text-4xl' />
           </div>
         </Link>
-      <div key={productoSeleccionado.id} className=" h-[85vh] lg:flex flex-col justify-center ">
+      <div key={productoSeleccionado.id} className=" h-[85vh] flex justify-center items-center lg:flex-col  ">
        
         <div className="relative mb-10 flex flex-col xl:max-w-full lg:flex-row md:items-center md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 w-xs md:w-3/4 mx-auto ">
-          <div className="w-full md:w-1/3  grid place-items-center">
+          <div className="w-full md:w-1/2  grid place-items-center">
             <img
               src={productoSeleccionado.img}
               alt={productoSeleccionado.name}
-              className=" lg:-ml-60 w-auto "
+              className=" lg:-ml-60 w-1/2 "
             />
           </div>
           <div className="w-full md:w-2/3 space-y-2 p-3 gap-6">

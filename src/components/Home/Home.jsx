@@ -42,7 +42,7 @@ import dato from '../../components/Apis/Apis.jsx'
                 </div>
 
                 <div className='flex justify-center'>
-                    <h1 className='font-courgette text-[16px] md:text-[34px] 2xl:text-[38px]'>
+                    <h1 className='font-courgette text-[20px] md:text-[30px] 2xl:text-[40px]'>
                         Nuestros productos calidad 100% premium
                     </h1>
                 </div>
@@ -62,7 +62,7 @@ import dato from '../../components/Apis/Apis.jsx'
                     </div>
                     <div className='rectangle11 w-64 xl:w-80 mb-16  md:w-42'>
                         <Link to="/TarjetasBebidas">
-                            <img className='mx-auto sm:w-[60px] mt-[-88px]  xl:w-[91px] ' src={gaseosas} alt="" />
+                            <img className='mx-auto sm:w-[60px] mt-[-68px] sm:mt-[-88px]  xl:w-[91px] ' src={gaseosas} alt="" />
                             <p className='font-courgette text-center my-6 text-lg mx-auto'>Bebidas</p>
                         </Link>
                     </div>

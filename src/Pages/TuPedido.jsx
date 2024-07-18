@@ -13,48 +13,49 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
             <div className="flex justify-center">
                 <Link className='m-auto' to={'/'}>
                     <div>
-                        <IoIosArrowBack className='sm:text-4xl' />
+                        <IoIosArrowBack className='text-4xl sm:text-4xl' />
                     </div>
                 </Link>
-                <p className="home w-[90%] h-24 mr-5 sm:mr-20 rounded-b-lg flex justify-center items-center shadow-lg font-courgette sm:text-5xl">
+                <p className="home w-[90%] h-24 mr-5 sm:mr-20 rounded-b-lg flex justify-center items-center shadow-lg font-courgette text-4xl sm:text-5xl">
                     Tu pedido
                 </p>
             </div>
 
             <div >
                 <div className='flex flex-col mx-4 sm:mx-24'>
-                    <div className="h-40 w-1/2 flex justify-center items-center">
-                        <h2 className="font-courgette sm:text-5xl">
+                    <div className="h-40 w-full sm:w-1/2 flex justify-center items-center">
+                        <h2 className="font-courgette text-3xl sm:text-5xl">
                             Resumen de tu pedido
                         </h2>
                     </div>
                     {carrito.map((item) => (
-                        <div key={item.id} className='w-full flex justify-between'>
+                        <div key={item.id} className='w-full flex sm:justify-between border-t-[1px] border-black xl:border-0'>
                             <div className="w-full ">
-                                <div className='flex justify-around'>
-                                    <div className=''>
-                                        <img className='md:[6rem] lg:h-[12rem]' src={item.img} alt={item.name} />
+                                <div className='flex flex-col xl:justify-around xl:flex-row'>
+                                    <div className="w-64 h-64 flex items-center justify-center overflow-hidden rounded-lg">
+                                        <img className="max-w-full max-h-full object-contain" src={item.img} alt={item.name} />
                                     </div>
+
                                     <div className='w-1/3 flex justify-between items-center'>
-                                        <h2 className='font-courgette sm:text-3xl'>
+                                        <h2 className='font-courgette text-3xl sm:text-3xl'>
                                             {item.name}
                                         </h2>
-                                        <p className='font-courgette sm:text-2xl ml-4'>
+                                        <p className='font-courgette text-2xl sm:text-2xl ml-4'>
                                             ${item.price}
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div className='flex items-center'>
-                                <div className='w-20 sm:w-60 sm:h-16 rounded-lg flex justify-around items-center border border-black'>
+                                <div className='w-32 h-10 sm:w-60 sm:h-16 rounded-lg flex justify-around items-center border border-black'>
                                     <Link onClick={() => eliminarDelCarrito(item.name)}>
-                                        <FaRegTrashAlt className='sm:text-2xl' />
+                                        <FaRegTrashAlt className='text-2xl sm:text-2xl' />
                                     </Link>
-                                    <p className='sm:text-3xl'>
+                                    <p className='text-2xl sm:text-3xl'>
                                         {item.cantidad}
                                     </p>
                                     <Link onClick={() => agregarAlCarrito(item)}>
-                                        <IoIosAddCircleOutline className='sm:text-2xl' />
+                                        <IoIosAddCircleOutline className='text-2xl sm:text-2xl' />
                                     </Link>
                                 </div>
                             </div>
@@ -63,17 +64,17 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                 </div>
                 <div className='h-80 md:h-80 lg:h-48 flex flex-col justify-between items-end mr-4 sm:mr-24 mb-10'>
                     <div className=''>
-                        <h2 className='text-red-500 font-courgette sm:text-3xl'>
-                        <a href="http://www.aqui colocar el home de la pagina.com" className='text-red-500 font-courgette sm:text-3xl'>
-                        ¿Te tienta algo más?  falta aca colocar el home
-                        </a>
+                        <h2 className='text-red-500 font-courgette ml-5 mt-20'>
+                            <a href="http://www.aqui colocar el home de la pagina.com" className='text-red-500 font-courgette text-xl sm:text-3xl'>
+                                ¿Te tienta algo más?  falta aca colocar el home
+                            </a>
                         </h2>
                     </div>
                     <div className='flex'>
-                        <p className='font-courgette sm:text-3xl'>
+                        <p className='font-courgette text-2xl sm:text-3xl'>
                             Precio total:
                         </p>
-                        <p className='text-red-500 ml-3 font-courgette sm:text-3xl'>
+                        <p className='text-red-500 ml-3 font-courgette text-2xl sm:text-3xl'>
                             $ {precioTotal}
                         </p>
                     </div>

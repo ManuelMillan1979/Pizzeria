@@ -29,8 +29,8 @@ const TarjetaEmpanada = ({ empanadas, seleccionarProducto }) => (
 const TarjetasEmpanadas = ({ empanadas, seleccionarProducto }) => (
   <div className="home">
     <Link className='m-auto' to={'/'}>
-      <div className="w-12 px-12 py-12">
-        <IoIosArrowBack className='sm:text-4xl' />
+      <div className="w-12 pl-12 pt-12">
+        <IoIosArrowBack className='text-4xl sm:text-4xl' />
       </div>
     </Link>
     <div id="container" className="flex justify-center ">
