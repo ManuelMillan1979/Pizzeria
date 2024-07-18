@@ -48,27 +48,27 @@ import dato from '../../components/Apis/Apis.jsx'
                 </div>
 
                 <div className='md:h-[48vh] flex flex-col items-center mt-20 sm:flex-row justify-center md:pt-14 xl:mb-16'>
-                    <div className='rectangle11 w-64 mb-16 md:w-42  '>
+                    <div className='rectangle11 w-64 xl:w-80 mb-16 md:w-42  '>
                         <Link to="/TarjetasPizzas">
-                            <img className=' mx-auto  w-[14rem] mt-[-51px] md:w-32 ' src={remolo1} alt="" />
+                            <img className=' mx-auto  sm:w-[7rem] mt-[-51px] xl:w-48 ' src={remolo1} alt="" />
                             <p className=' font-courgette text-center my-6 text-lg mx-auto '>Pizzas</p>
                         </Link>
                     </div>
-                    <div className=' rectangle11 w-64 mb-16 md:w-42'>
+                    <div className=' rectangle11 w-64 xl:w-80 mb-16 md:w-42'>
                         <Link to="/TarjetasEmpanadas">
-                            <img className='mx-auto w-[15rem] mt-[-48px] md:w-36' src={empanadas} alt="" />
+                            <img className='mx-auto sm:w-[130px] mt-[-48px] xl:w-56' src={empanadas} alt="" />
                             <p className='font-courgette text-center my-6 text-lg mx-auto'>Empanadas</p>
                         </Link>
                     </div>
-                    <div className='rectangle11 w-64 mb-16  md:w-42'>
+                    <div className='rectangle11 w-64 xl:w-80 mb-16  md:w-42'>
                         <Link to="/TarjetasBebidas">
-                            <img className='mx-auto xs:w-[5rem] mt-[-88px]  md:w-16 ' src={gaseosas} alt="" />
+                            <img className='mx-auto sm:w-[60px] mt-[-88px]  xl:w-[91px] ' src={gaseosas} alt="" />
                             <p className='font-courgette text-center my-6 text-lg mx-auto'>Bebidas</p>
                         </Link>
                     </div>
-                    <div className='rectangle11 w-64 mb-16 md:w-42'>
+                    <div className='rectangle11 w-64 xl:w-80 mb-16 md:w-42'>
                         <Link to={'/tarjetas-Postres'}>
-                        <img className='mx-auto w-48 mt-[-70px] md:w-36 ' src={postres} alt="" />
+                        <img className='mx-auto sm:w-[133px] mt-[-70px] xl:w-[211px] ' src={postres} alt="" />
                         <p className='font-courgette text-center my-6 text-lg mx-auto'>Postres</p>
                         </Link>
                     </div>
