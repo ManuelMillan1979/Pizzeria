@@ -9,7 +9,7 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
     const precioTotal = carrito.reduce((total, item) => total + item.price * item.cantidad, 0);
 
     return (
-        <div className={`home ${carrito.length > 0 ? 'h-auto' : 'h-[88vh]'} sm:flex flex-col justify-between`}>
+        <div className={`home ${carrito.length > 0 ? 'h-auto' : 'h-screen'} sm:flex flex-col justify-between`}>
             <div className="flex justify-center">
                 <Link className='m-auto' to={'/'}>
                     <div>

@@ -16,7 +16,7 @@ const TarjetaEmpanada = ({ empanadas, seleccionarProducto }) => (
           </h2>
           <span className="text-black block mb-5 flex-grow">{item.ingredients.join(', ')}</span>
           <div className="flex justify-end w-full mt-auto">
-            <Link to={'/pizza'}>
+            <Link to={'/empanada'}>
               <button onClick={() => seleccionarProducto(item)} className="px-6 py-2 border-2 border-red-500 text-red-500 rounded-full">+Info</button>
             </Link>
           </div>
