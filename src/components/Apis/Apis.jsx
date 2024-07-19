@@ -4,7 +4,7 @@ const pizzas=
     {
         "id": 1,
         "name": "Muzzarella",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733929/Muzzarella_clzf7a.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420419/muzzarella_zoqobv.png",
         "ingredients": [
             "Salsa de tomate",
             "queso muzzarella",
@@ -16,7 +16,7 @@ const pizzas=
     {
         "id": 2,
         "name": "Napolitana",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733932/Napolitana_cgpswt.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420417/napolitana_c9sbbd.png",
         "ingredients": [
             "Salsa de tomate",
             "queso muzzarella",
@@ -30,7 +30,7 @@ const pizzas=
     {
         "id": 3,
         "name": "Napo especial",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733948/NapoEspecial_lber49.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420409/napoespecial_imu2yu.png",
         "ingredients": [
             "Queso muzzarella",
             "rodajas de tomates",
@@ -43,7 +43,7 @@ const pizzas=
     {
         "id": 4,
         "name": "Napo power",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733796/napo_power_opncir.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420408/napopower_pqnxsp.png",
         "ingredients": [
             "Queso muzzarella",
             "rodajas de tomates",
@@ -56,7 +56,7 @@ const pizzas=
     {
         "id": 5,
         "name": "Capresse",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718802232/Capresse-3_wsz4cg.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420398/capresse_ckysgk.png",
         "ingredients": [
             "Salsa de tomate",
             "tomates cherry",
@@ -70,7 +70,7 @@ const pizzas=
     {
         "id": 6,
         "name": "4 quesos",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733791/4quesos_pb5z4s.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420395/4quesos_kxwoyv.png",
         "ingredients": [
             "Queso muzzarella",
             "provolone",
@@ -83,7 +83,7 @@ const pizzas=
     {
         "id": 7,
         "name": "Calabresa",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733795/Calabresa_szqt9k.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420387/calabressa_o83tmc.png",
         "ingredients": [
             "Salsa de tomate",
             "longaniza",
@@ -96,7 +96,7 @@ const pizzas=
     {
         "id": 8,
         "name": "Dón Rémolo",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733884/Don_r%C3%A9molo_ea5dg6.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420386/Don_r%C3%A9molo_6_o4asjf.png",
         "ingredients": [
             "Queso muzzarella",
             "longaniza",
@@ -110,7 +110,7 @@ const pizzas=
     {
         "id": 9,
         "name": "100% panceta",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733884/100_panceta_byqzub.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420378/fullpanceta_q75f3a.png",
         "ingredients": [
             "Salsa de tomate",
             "ajíes",
@@ -124,7 +124,7 @@ const pizzas=
     {
         "id": 10,
         "name": "Pepperoni",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733884/Pepperoni_cupia3.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420377/pepperoni_y8nwno.png",
         "ingredients": [
             "Salsa de tomate",
             "queso muzzarella",
@@ -136,7 +136,7 @@ const pizzas=
     {
         "id": 11,
         "name": "Veggie",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733886/Veggi_ubx0jc.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420359/veggi_ypcnyc.png",
         "ingredients": [
             "Queso muzzarella",
             "brócoli",
@@ -149,7 +149,7 @@ const pizzas=
     {
         "id": 12,
         "name": "Veggie power",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733908/VeggiPower_yvam9s.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420359/veggipower_gf4bow.png",
         "ingredients": [
             "Queso muzzarella",
             "espinaca",
@@ -162,7 +162,7 @@ const pizzas=
     {
         "id": 13,
         "name": "Pollo especial",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733907/Pollo_especial_atnwub.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420358/polloespecial_h9qviz.png",
         "ingredients": [
             "Queso muzzarella",
             "lonjas de pollo",
@@ -175,7 +175,7 @@ const pizzas=
     {
         "id": 14,
         "name": "Super especial",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/fl_preserve_transparency/v1718733930/SuperEspecial_xbsemn.jpg?_s=public-apps",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721420357/superespecial_ye6uaa.png",
         "ingredients": [
             "Mix de gustos",
             "Pepperoni",
@@ -235,7 +235,7 @@ const empanada=[
             "queso gratinado",
             "huevo"
         ],
-        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719447987/E_panceta_ujpoip.png",
+        "imgIngredients": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721419960/efullpanceta_x9sdvm.png",
         "price": 830
     },
     {
@@ -270,7 +270,7 @@ const bebidas=[
             {
                 "id": 1,
                 "name": "Cerveza Budweiser",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761966/Budweiser_aytkl8.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411949/Budweiser_hlpwnd.png",
                 "description": [
                     "Cerveza Lager",
                     "330 ml"
@@ -280,7 +280,7 @@ const bebidas=[
             {
                 "id": 2,
                 "name": "Cerveza Corona",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Corona_l8iqso.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411921/corona_sxd8ul.png",
                 "description": [
                     "Rubia Premier",
                     "350 ml"
@@ -290,7 +290,7 @@ const bebidas=[
             {
                 "id": 3,
                 "name": "Cerveza Guiness",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Guiness_eyqhw2.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411887/guiness_nhwz67.png",
                 "description": [
                     "Extra Stout",
                     "330 ml"
@@ -300,7 +300,7 @@ const bebidas=[
             {
                 "id": 4,
                 "name": "Cerveza Heineken",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719761964/Heineken_nylqqd.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411854/heinekken_jnyyhf.png",
                 "description": [
                     "Cerveza Lager",
                     "330 ml"
@@ -312,7 +312,7 @@ const bebidas=[
             {
                 "id": 1,
                 "name": "Coca-cola",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762150/Coca_com%C3%BAn_c5aewf.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411752/cocacola_bcpet0.png",
                 "description": [
                     "Coca-cola normal",
                     "600 ml"
@@ -322,7 +322,7 @@ const bebidas=[
             {
                 "id": 2,
                 "name": "Fanta Naranja",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762150/Fanta_naranja_sgwsnw.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411688/fanta_jglhlz.png",
                 "description": [
                     "botella Fanta",
                     "500 ml"
@@ -332,7 +332,7 @@ const bebidas=[
             {
                 "id": 3,
                 "name": "Coca Zero",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762151/Lata_coca_zero_mgevt9.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411824/coca_zero_i22ggh.png",
                 "description": [
                     "lata Coca Cola sin azúcar",
                     "350 ml"
@@ -342,7 +342,7 @@ const bebidas=[
             {
                 "id": 4,
                 "name": "Pepsi Zero",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762152/Lata_pepsi_zero_tgpjqc.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411791/pepsi_zero_esfr3w.png",
                 "description": [
                     "lata Pepsi sin azúcar",
                     "350 ml"
@@ -352,7 +352,7 @@ const bebidas=[
             {
                 "id": 5,
                 "name": "Sprite",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762159/Sprite_xysvag.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411661/sprite_htkaes.png",
                 "description": [
                     "botella plástico reciclable",
                     "600 ml"
@@ -362,7 +362,7 @@ const bebidas=[
             {
                 "id": 6,
                 "name": "Paso de los toros",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762160/Paso_de_los_toros_Pomelo_vaajcr.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411627/paso_de_los_toros_bt2irx.png",
                 "description": [
                     "Pomelo",
                     "500 ml"
@@ -372,7 +372,7 @@ const bebidas=[
             {
                 "id": 7,
                 "name": "Pepsi",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762164/Pepsi_com%C3%BAn_v2i9g9.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411719/pepsi_jqcib5.png",
                 "description": [
                     "Pepsi normal",
                     "600 ml"
@@ -384,7 +384,7 @@ const bebidas=[
             {
                 "id": 1,
                 "name": "Agua Mineral",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762721/Agua_con_gas_gln8xk.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721412035/dasani_pzf4xr.png",
                 "description": [
                     "Dasani con gas",
                     "500 ml"
@@ -394,7 +394,7 @@ const bebidas=[
             {
                 "id": 2,
                 "name": "Agua Mineral",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762722/Agua_sin_gas_a2bwkb.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721412035/aquafina_vnkgan.png",
                 "description": [
                     "Aquafina sin gas",
                     "500 ml"
@@ -404,7 +404,7 @@ const bebidas=[
             {
                 "id": 3,
                 "name": "Agua saborizada",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762722/Aquarius_Durazno_zvy6dp.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411983/durazno_tokkee.png",
                 "description": [
                     "Aquarius Durazno",
                     "600 ml"
@@ -414,7 +414,7 @@ const bebidas=[
             {
                 "id": 4,
                 "name": "Agua saborizada",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762721/Aquarius_Manzana_nwfrez.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721412021/aquarius_manzana_t3vc0z.png",
                 "description": [
                     "Aquarius Manzana",
                     "600 ml"
@@ -424,7 +424,7 @@ const bebidas=[
             {
                 "id": 5,
                 "name": "Agua saborizada",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762742/Aquarius_Pomelo_obj8jk.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721412011/pera_p2bevq.png",
                 "description": [
                     "Aquarius Pera",
                     "600 ml"
@@ -434,7 +434,7 @@ const bebidas=[
             {
                 "id": 6,
                 "name": "Agua saborizada",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762735/Aquarius_pomelo_rosado_mietue.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721412011/pomelo_gqvlzf.png",
                 "description": [
                     "Aquarius Pomelo",
                     "600 ml"
@@ -444,7 +444,7 @@ const bebidas=[
             {
                 "id": 7,
                 "name": "Agua saborizada",
-                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1719762734/Aquarius_Pera_gegew0.png",
+                "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721412011/uva_a6zn4w.png",
                 "description": [
                     "Aquarius Uva",
                     "600 ml"
@@ -459,7 +459,7 @@ const postres=[
     {
         "id": 1,
         "name": "Bombón Suizo",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387603/bomb%C3%B3n_suizo_igve4b.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411591/bomb%C3%B3nsuizo_ywjrln.png",
         "ingredients": [
             "bizcocho de chocolate,",
             "relleno con una exquisita crema"
@@ -469,7 +469,7 @@ const postres=[
     {
         "id": 2,
         "name": "Bombón Escocés",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387603/Bomb%C3%B3n_Escoc%C3%A9s_mqn0w9.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/bomb%C3%B3nscoces_vqytyl.png",
         "ingredients": [
             "dulce de chocolate relleno con crema y dulce de leche"
         ],
@@ -478,7 +478,7 @@ const postres=[
     {
         "id": 3,
         "name": "Bombón Balcarse",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387602/Bomb%C3%B3n_Balcarse_mqde5g.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/balcarse_dsn933.png",
         "ingredients": [
             "bizcocho de chocolate esponjoso",
             "cubierto con capa de chocolate"
@@ -488,7 +488,7 @@ const postres=[
     {
         "id": 4,
         "name": "Flan mixto",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387602/Flan_mixto_exj7mt.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/flan_ow4syr.png",
         "ingredients": [
             "Postre lácteo tradicional"
         ],
@@ -497,7 +497,7 @@ const postres=[
     {
         "id": 5,
         "name": "Brownie con helado",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387601/Brownie_con_helado_znbcqm.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/brownie_kbxzj8.png",
         "ingredients": [
             "brownie de chocolate caliente y helado de vainilla"
         ],
@@ -506,7 +506,7 @@ const postres=[
     {
         "id": 6,
         "name": "Ensalada de fruta",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387601/Ensalada_de_fruta_njwd4b.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/ensalada_xo4xl3.png",
         "ingredients": [
             "variedad de frutas cortadas en trozos o rodajas"
         ],
@@ -515,7 +515,7 @@ const postres=[
     {
         "id": 7,
         "name": "Porción de Cheesecake de frutos rojos",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720387591/Porci%C3%B3n_de_Cheesecake_de_frutos_rojos_kanteh.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/frutosrojos_yuoo5y.png",
         "ingredients": [
             "capa cremosa de queso y el contraste de los frutos rojos frescos"
         ],
@@ -524,7 +524,7 @@ const postres=[
     {
         "id": 8,
         "name": "Porción de Lemon Pie",
-        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1720389123/Don_r%C3%A9molo_14_cqsdqu.svg",
+        "img": "https://res.cloudinary.com/djolgpuuh/image/upload/v1721411551/pie_v8rnua.png",
         "ingredients": [
             "tarta de limón",
             "rellena de crema de limón"
