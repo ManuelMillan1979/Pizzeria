@@ -5,7 +5,7 @@ import { IoIosArrowBack } from "react-icons/io";
 const BebidasVarias= ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
     <div className="home  ">
-       <Link className='m-auto' to={'/'}>
+       <Link className='m-auto' to={'/tarjetasBebidas'}>
           <div className="w-12 pl-12 pt-12">
             <IoIosArrowBack className='text-4xl sm:text-4xl' />
           </div>
