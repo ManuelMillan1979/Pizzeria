@@ -1,18 +1,14 @@
 import { FaCartShopping, FaCircleMinus, FaCirclePlus } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { IoIosArrowBack } from "react-icons/io";
+import NavbarInterno from "../../components/NavbarInterno/NavbarInterno";
 
 const Seleccion_Pizza = ({ productoSeleccionado, agregarAlCarrito }) => {
   return (
     <div className="home  ">
-       <Link className='m-auto' to={'/tarjetasPizzas'}>
-          <div className="w-12 px-12 py-12">
-            <IoIosArrowBack className='sm:text-4xl' />
-          </div>
-        </Link>
-      <div key={productoSeleccionado.id} className=" h-[85vh] lg:flex flex-col justify-center ">
+    <NavbarInterno/>
+      <div key={productoSeleccionado.id} className="  h-[85vh] lg:flex flex-col justify-center ">
        
-        <div className="relative mb-10 flex flex-col xl:max-w-full lg:flex-row md:items-center md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 w-xs md:w-3/4 mx-auto ">
+        <div className="bg-[#FAD469] relative mb-10 flex flex-col xl:max-w-full lg:flex-row md:items-center md:space-x-5 space-y-3 md:space-y-0 rounded-xl shadow-lg p-10 w-xs md:w-3/4 mx-auto ">
           <div className="w-full md:w-1/3  grid place-items-center">
             <img
               src={productoSeleccionado.img}

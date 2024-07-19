@@ -1,13 +1,12 @@
-
 import { Link } from 'react-router-dom';
-import { IoIosArrowBack } from "react-icons/io";
+import NavbarInterno from '../components/NavbarInterno/NavbarInterno';
 
 const TarjetaEmpanada = ({ empanadas, seleccionarProducto }) => (
   <>
 
     {empanadas.map((item) => (
       <div key={item.id} className="w-full sm:w-1/2  xl:w-1/3 p-2 mt-32">
-        <div className=" px-6 py-8 rounded-lg shadow-lg text-center flex flex-col h-full">
+        <div className="bg-[#FAD469] px-6 py-8 rounded-lg shadow-lg text-center flex flex-col h-full">
           <div className="mb-3">
             <img className="w-auto mx-auto rounded-full -mt-28" src={item.img} alt={item.name} />
           </div>
@@ -28,11 +27,7 @@ const TarjetaEmpanada = ({ empanadas, seleccionarProducto }) => (
 
 const TarjetasEmpanadas = ({ empanadas, seleccionarProducto }) => (
   <div className="home">
-    <Link className='m-auto' to={'/'}>
-      <div className="w-12 pl-12 pt-12">
-        <IoIosArrowBack className='text-4xl sm:text-4xl' />
-      </div>
-    </Link>
+    <NavbarInterno />
     <div id="container" className="flex justify-center ">
       <div className="w-[80%] flex flex-wrap ">
         <TarjetaEmpanada empanadas={empanadas} seleccionarProducto={seleccionarProducto} />

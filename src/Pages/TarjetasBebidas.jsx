@@ -1,21 +1,15 @@
-
-
 import { Link } from "react-router-dom";
-import { IoIosArrowBack } from "react-icons/io";
+import NavbarInterno from "../components/NavbarInterno/NavbarInterno";
 
 const TarjetasBebidas = ({ bebidas, seleccionarProducto }) => {
   return (
     <div className="home h-auto">
-      <Link className='m-auto' to={'/'}>
-        <div className="pl-12 pt-12">
-          <IoIosArrowBack className='text-4xl sm:text-4xl' />
-        </div>
-      </Link>
+      <NavbarInterno/>
       <div id="container" className="w-4/5 mx-auto">
       <div className="flex flex-wrap justify-center">
   {bebidas[0].cervezas.map((cerveza) => (
     <div key={cerveza.id} className="w-full sm:w-1/2  xl:w-1/4 p-2 mt-32 mt-5">
-      <div className="h-full px-6 py-8 rounded-lg shadow-lg text-center flex flex-col">
+      <div className=" bg-[#FAD469] h-full px-6 py-8 rounded-lg shadow-lg text-center flex flex-col">
         <div className="mb-3 flex-shrink-0">
           <img className=" h-[17rem] object-cover mx-auto rounded-full" src={cerveza.img} alt={cerveza.name} />
         </div>
@@ -35,7 +29,7 @@ const TarjetasBebidas = ({ bebidas, seleccionarProducto }) => {
 <div className="flex flex-wrap justify-center">
   {bebidas[0].gaseosas.map((gaseosa) => (
     <div key={gaseosa.id} className="w-full sm:w-1/2  xl:w-1/4 p-2 mt-32 mt-5">
-      <div className="h-full px-6 py-8 rounded-lg shadow-lg text-center flex flex-col">
+      <div className="bg-[#FAD469] h-full px-6 py-8 rounded-lg shadow-lg text-center flex flex-col">
         <div className="mb-3 flex-shrink-0">
           <img className=" h-[17rem] object-cover mx-auto " src={gaseosa.img} alt={gaseosa.name} />
         </div>
@@ -54,7 +48,7 @@ const TarjetasBebidas = ({ bebidas, seleccionarProducto }) => {
 <div className="flex flex-wrap justify-center">
   {bebidas[0].aguas.map((agua) => (
     <div key={agua.id} className="w-full sm:w-1/2  xl:w-1/4 p-2 mt-32 mt-5">
-      <div className="h-full px-6 py-8 rounded-lg shadow-lg text-center flex flex-col">
+      <div className="bg-[#FAD469] h-full px-6 py-8 rounded-lg shadow-lg text-center flex flex-col">
         <div className="mb-3 flex-shrink-0">
           <img className=" h-[17rem] object-cover mx-auto rounded-full" src={agua.img} alt={agua.name} />
         </div>
