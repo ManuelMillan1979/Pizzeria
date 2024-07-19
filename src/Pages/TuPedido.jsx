@@ -4,9 +4,24 @@ import { FaWhatsapp } from "react-icons/fa";
 import { IoIosArrowBack } from "react-icons/io";
 import { Link } from 'react-router-dom';
 
+
 const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
-    // Calcular el precio total
+
+   
+
     const precioTotal = carrito.reduce((total, item) => total + item.price * item.cantidad, 0);
+
+    const MensajeWhatsApp = () => {
+        let mensaje = "Hola Don Rémolo, me gustaría hacer un pedido:\n\n";
+        carrito.forEach(item => {
+            mensaje += `${item.cantidad} x ${item.name} = $${item.price * item.cantidad}\n`;
+        });
+        mensaje += `\nPrecio total: $${precioTotal}`;
+        return mensaje;
+    };
+
+    const mensajeWhatsApp = MensajeWhatsApp();
+    const numeroWhatsApp = "pongan el numero whatsapp al que van enviar el pedido , va todo seguido sin espacios"; 
 
     return (
         <div className={`home ${carrito.length > 0 ? 'h-auto' : 'h-screen'} sm:flex flex-col justify-between`}>
@@ -65,9 +80,9 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                 <div className='h-80 md:h-80 lg:h-48 flex flex-col justify-between items-end mr-4 sm:mr-24 mb-10'>
                     <div className=''>
                         <h2 className='text-red-500 font-courgette ml-5 mt-20'>
-                            <a href="http://www.aqui colocar el home de la pagina.com" className='text-red-500 font-courgette text-xl sm:text-3xl'>
-                                ¿Te tienta algo más?  falta aca colocar el home
-                            </a>
+                            <Link to={'/'} className='text-red-500 font-courgette text-xl sm:text-3xl'>
+                                ¿Te tienta algo más?  
+                            </Link>
                         </h2>
                     </div>
                     <div className='flex'>
@@ -86,12 +101,17 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                         El pago solo se realiza en efectivo y con delivery propio del local.
                     </h1>
                     <div className='sm:w-80'>
-                        <Link to={'#'} className='w-36 h-10 sm:w-80 sm:h-20 flex justify-center items-center rounded-lg text-white font-bonanova font-normal sm:text-3xl bg-green-500'>
+                        <a 
+                            href={`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajeWhatsApp)}`} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className='w-36 h-10 sm:w-80 sm:h-20 flex justify-center items-center rounded-lg text-white font-bonanova font-normal sm:text-3xl bg-green-500'
+                        >
                             Enviar mi pedido
                             <div className='ml-1 sm:ml-5'>
                                 <FaWhatsapp className='sm:text-4xl' />
                             </div>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>
