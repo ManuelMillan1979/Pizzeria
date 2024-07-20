@@ -102,7 +102,7 @@ const TuPedido = ({ carrito, agregarAlCarrito, eliminarDelCarrito }) => {
                     </h1>
                     <div className='sm:w-80'>
                         <a 
-                            href={`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajeWhatsApp)}`} 
+                            href={`https://wa.me/${543413154914}?text=${encodeURIComponent(mensajeWhatsApp)}`} 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className='w-36 h-10 sm:w-80 sm:h-20 flex justify-center items-center rounded-lg text-white font-bonanova font-normal sm:text-3xl bg-green-500'
